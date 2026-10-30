@@ -16,7 +16,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.decomposition import PCA
 from sklearn.linear_model import LogisticRegression
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.metrics import f1_score, balanced_accuracy_score, roc_auc_score
+from sklearn.metrics import f1_score, balanced_accuracy_score, roc_auc_score, average_precision_score
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from reach_event_clean import build_events, src_folders
@@ -421,10 +421,15 @@ class Decoder:
             model: str = "lgb",
             skew: bool = False,
             blocked: int = 0,
+            loso: bool = False,
     ):
         self.general = general
         self.model = model
         self.blocked = blocked
+        self.loso = loso
+        # leave-one-session-out: the held-out session has no labelled events, so the per-session selectivity
+        # template cannot be fitted for it; drop those features everywhere to keep train and test matrices alike
+        self.use_sel = not loso
         self.ev = events.reset_index(drop=True)
         self.y = self.ev["label"].to_numpy()
         self.beh = self.ev["behavior"].to_numpy()
@@ -492,23 +497,24 @@ class Decoder:
             out[fold == k] = self.gen_apply(idx[fold != k], idx[fold == k])
         return out
 
-    def matrix(self, idx: np.ndarray, sel: np.ndarray, gen: np.ndarray | None = None) -> pd.DataFrame:
-        parts = [
-            self.hand.iloc[idx].reset_index(drop=True),
-            pd.DataFrame(sel, columns=SEL_NAMES),
-            self.extra.iloc[idx].reset_index(drop=True),
-        ]
+    def matrix(self, idx: np.ndarray, sel: np.ndarray | None, gen: np.ndarray | None = None) -> pd.DataFrame:
+        parts = [self.hand.iloc[idx].reset_index(drop=True)]
+        if sel is not None:
+            parts.append(pd.DataFrame(sel, columns=SEL_NAMES))
+        parts.append(self.extra.iloc[idx].reset_index(drop=True))
         if gen is not None:
             parts.append(pd.DataFrame(gen, columns=GEN_NAMES))
         return pd.concat(parts, axis=1)
 
     def train_matrix(self, idx: np.ndarray) -> pd.DataFrame:
         gen = self.gen_crossfit(idx) if self.general else None
-        return self.matrix(idx, self.sel_crossfit(idx), gen)
+        sel = self.sel_crossfit(idx) if self.use_sel else None
+        return self.matrix(idx, sel, gen)
 
     def apply_matrix(self, fit_idx: np.ndarray, apply_idx: np.ndarray) -> pd.DataFrame:
         gen = self.gen_apply(fit_idx, apply_idx) if self.general else None
-        return self.matrix(apply_idx, self.sel_apply(fit_idx, apply_idx), gen)
+        sel = self.sel_apply(fit_idx, apply_idx) if self.use_sel else None
+        return self.matrix(apply_idx, sel, gen)
 
     def _model(self, n_estimators: int, y_fit: np.ndarray) -> lgb.LGBMClassifier:
         spw = (y_fit == 0).sum() / max((y_fit == 1).sum(), 1)
@@ -520,6 +526,22 @@ class Decoder:
             m = self.sess[idx] == tok
             fold[m] = make_folds(self.y[idx[m]], seed)
         return fold
+
+    def group_folds(self, idx: np.ndarray, seed: int, k: int = 5) -> np.ndarray:
+        """
+        folds that keep whole sessions together (inner loop of the leave-one-session-out evaluation)
+        """
+        toks = np.unique(self.sess[idx])
+        rng = np.random.default_rng(seed)
+        assign = dict(zip(rng.permutation(toks), np.arange(len(toks)) % min(k, len(toks))))
+        return np.array([assign[t] for t in self.sess[idx]])
+
+    def loso_folds(self) -> np.ndarray:
+        """
+        outer split: one fold per session, in sorted token order
+        """
+        toks = {t: i for i, t in enumerate(np.unique(self.sess))}
+        return np.array([toks[t] for t in self.sess])
 
     def configs(self) -> list[tuple]:
         """
@@ -591,7 +613,12 @@ class Decoder:
 
     def run(self, folds: tuple[int, ...] = (0, 1, 2, 3, 4)) -> pd.DataFrame:
         all_idx = np.arange(len(self.ev))
-        outer = self.blocked_folds(self.blocked) if self.blocked else self.session_folds(all_idx, seed=42)
+        if self.loso:
+            outer = self.loso_folds()
+        elif self.blocked:
+            outer = self.blocked_folds(self.blocked)
+        else:
+            outer = self.session_folds(all_idx, seed=42)
         proba = np.full(len(all_idx), np.nan)
         pred = np.zeros(len(all_idx), dtype=int)
         configs = self.configs()
@@ -599,7 +626,7 @@ class Decoder:
 
         for k in folds:
             tr, te = all_idx[outer != k], all_idx[outer == k]
-            inner = self.session_folds(tr, seed=43)
+            inner = self.group_folds(tr, seed=43) if self.loso else self.session_folds(tr, seed=43)
 
             # inner out-of-fold probabilities over every config
             oof = np.zeros((len(tr), len(configs)))
@@ -621,16 +648,28 @@ class Decoder:
 
             inner_pred = (oof[:, i] >= thr_best).astype(int)
             n_best = "/".join(str(v) for v in cfg_best[1:])
+            y_te, p_te, s_te = self.y[te], pred[te], proba[te]
+            two_class = 0 < y_te.sum() < len(te)
+            nan = float("nan")
             c = {"fold": k + 1, "trees": n_best, "threshold": round(thr_best, 3),
                  "inner_macro_f1": float(f1[i, t]),
                  "inner_reach_f1": f1_score(self.y[tr], inner_pred),
-                 "test_reach_f1": f1_score(self.y[te], pred[te]),
-                 "test_macro_f1": f1_score(self.y[te], pred[te], average="macro"),
-                 "test_auc": roc_auc_score(self.y[te], proba[te])}
+                 "test_n": int(len(te)), "test_reach": int(y_te.sum()),
+                 "test_reach_f1": f1_score(y_te, p_te, pos_label=1, zero_division=0),
+                 "test_nonreach_f1": f1_score(y_te, p_te, pos_label=0, zero_division=0),
+                 "test_macro_f1": f1_score(y_te, p_te, average="macro", zero_division=0),
+                 # ROC AUC is the same for both classes; the class-wise numbers are PR-AUC (average precision)
+                 "test_auc": roc_auc_score(y_te, s_te) if two_class else nan,
+                 "test_reach_prauc": average_precision_score(y_te, s_te) if two_class else nan,
+                 "test_nonreach_prauc": average_precision_score(1 - y_te, 1 - s_te) if two_class else nan}
+            if self.loso:
+                c["session"] = str(self.sess[te[0]])
             self.choices.append(c)
-            print(f"  outer fold {k + 1}: {cfg_best[0]}={n_best} thr={thr_best:.2f} "
-                  f"inner reach F1={c['inner_reach_f1']:.3f} macro={c['inner_macro_f1']:.3f} | "
-                  f"test reach F1={c['test_reach_f1']:.3f} macro={c['test_macro_f1']:.3f} AUC={c['test_auc']:.3f}",
+            print(f"  outer fold {k + 1}{' ' + c['session'] if self.loso else ''}: {cfg_best[0]}={n_best} thr={thr_best:.2f} "
+                  f"inner macro={c['inner_macro_f1']:.3f} | test n={c['test_n']} reach={c['test_reach']} "
+                  f"macro F1={c['test_macro_f1']:.3f} reach F1={c['test_reach_f1']:.3f} "
+                  f"nonreach F1={c['test_nonreach_f1']:.3f} AUC={c['test_auc']:.3f} "
+                  f"reach PR-AUC={c['test_reach_prauc']:.3f} nonreach PR-AUC={c['test_nonreach_prauc']:.3f}",
                   flush=True)
 
         done = np.isin(outer, folds)
@@ -671,12 +710,20 @@ def report(res: pd.DataFrame) -> dict:
     per_sess = pd.DataFrame({tok: scores(g) for tok, g in res.groupby("token")}).T
     per_stage = pd.DataFrame({st: scores(g) for st, g in res.groupby("stage")}).T
 
+    # session-stratified AUC: within-session AUCs weighted by their number of (reach, non-reach) pairs; the session
+    # prior cannot contribute to it (pooled AUC has a ~0.7 floor from the prior alone)
+    two = per_sess["auc"].notna()
+    pairs = (per_sess["reach"] * (per_sess["n"] - per_sess["reach"])).astype(float)
+    strat_auc = float(np.average(per_sess.loc[two, "auc"].astype(float), weights=pairs[two])) if two.any() else float("nan")
+
     print("  pooled      :", "  ".join(f"{c}={pooled[c]:.3f}" for c in cols))
     print("  session mean:", "  ".join(f"{c}={per_sess[c].astype(float).mean():.3f}" for c in cols),
           f"(single-class sessions: {per_sess['reach_f1'].isna().sum()})")
+    print(f"  session-stratified AUC = {strat_auc:.3f}")
     print("  per stage (pooled within stage):")
     print(per_stage.loc[:, ["n", "reach"] + cols].astype(float).round(3).to_string())
-    return {"pooled": pooled, "session_mean": per_sess[cols].astype(float).mean().to_dict()}
+    return {"pooled": pooled, "session_mean": per_sess[cols].astype(float).mean().to_dict(),
+            "stratified_auc": strat_auc}
 
 
 if __name__ == '__main__':
@@ -696,6 +743,8 @@ if __name__ == '__main__':
                         help="after asymmetric cleaning, drop overlapping windows (see reach_event_clean.dedup_overlap)")
     parser.add_argument("--blocked", type=int, default=0, metavar="K",
                         help="outer split by time: per session, K contiguous blocks of events (2 = first/second half)")
+    parser.add_argument("--loso", action="store_true",
+                        help="outer split leave-one-session-out (inner folds grouped by session; selectivity features off)")
     parser.add_argument("--label-shuffle", type=int, default=None, metavar="SEED",
                         help="negative control: segment-shuffle the labels per session (see segment_shuffle_labels)")
     parser.add_argument("--out", default=None, help="csv path for per-event outer-test predictions")
@@ -706,14 +755,19 @@ if __name__ == '__main__':
         events = segment_shuffle_labels(events, seed=args.label_shuffle)
     tag = (f"stages={args.stages or 'all'} extras={args.extras or 'none'} norm={args.norm} "
            f"global={args.glob} general={args.general} model={args.model} skew={args.skew} dedup={args.dedup} "
-           f"label_shuffle={args.label_shuffle} blocked={args.blocked}")
+           f"label_shuffle={args.label_shuffle} blocked={args.blocked} loso={args.loso}")
     print(f"[{tag}] sessions={events['token'].nunique()} events={len(events)} reach={events['label'].sum()}", flush=True)
 
     dec = Decoder(events, extras=tuple(args.extras), norm=args.norm, glob=args.glob, general=args.general,
-                  model=args.model, skew=args.skew, blocked=args.blocked)
-    print(f"  features: {dec.hand.shape[1]} handcrafted + {len(SEL_NAMES)} selectivity + {dec.extra.shape[1]} extra"
-          f" + {len(GEN_NAMES) if args.general else 0} general", flush=True)
-    folds = range(args.blocked) if args.blocked else (f - 1 for f in args.folds)
+                  model=args.model, skew=args.skew, blocked=args.blocked, loso=args.loso)
+    print(f"  features: {dec.hand.shape[1]} handcrafted + {len(SEL_NAMES) if dec.use_sel else 0} selectivity"
+          f" + {dec.extra.shape[1]} extra + {len(GEN_NAMES) if args.general else 0} general", flush=True)
+    if args.loso:
+        folds = range(events["token"].nunique())
+    elif args.blocked:
+        folds = range(args.blocked)
+    else:
+        folds = (f - 1 for f in args.folds)
     res = dec.run(folds=tuple(folds))
     inner = np.mean([c["inner_macro_f1"] for c in dec.choices])
     print(f"  inner OOF macro F1 (mean of outer folds) = {inner:.3f}")
