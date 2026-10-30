@@ -1,0 +1,2 @@
+window,variant,pooled_f1_pos,pooled_f1_neg,pooled_f1_macro,pooled_balanced_accuracy,pooled_roc_auc,fold_std_f1_pos,session_mean_macro_F1,session_mean_reach_F1,session_mean_other_F1,session_mean_balanced_accuracy,session_mean_roc_auc
+-2..+4,no_min+ext_selectivity,0.4913672421838544,0.8847901913117007,0.6880787167477775,0.7027149885244717,0.8009579479379113,0.03059360425741739,0.6462962119769753,0.42321022232787814,0.872221718982027,0.6628042453856605,0.7426255923678104
