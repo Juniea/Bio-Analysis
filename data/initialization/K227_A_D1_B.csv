@@ -1,0 +1,327 @@
+Trial,Behavior,Start,End
+1.0,Spout movement,92.59,97.59
+,Cont reaching,97.59,117.59
+,Cont in vain,118.59,126.59
+2.0,Spout movement,211.59,216.59
+,Cont reaching,214.59,218.59
+,Cont in vain,219.59,227.59
+,Cont in vain,254.59,270.59
+,Both in vain,301.59,308.59
+,Both in vain,309.59,313.59
+3.0,Spout movement,331.59,335.59
+,Cont reaching,335.59,362.59
+,Cont in vain,363.59,376.59
+,Walk,399.59,405.59
+,Walk,420.59,427.59
+,Walk,440.59,446.59
+4.0,Spout movement,450.59,454.59
+,Cont reaching,453.59,480.59
+,Cont in vain,481.59,497.59
+,Cont licking,502.59,515.59
+,Cont licking,516.59,521.59
+,Walk,522.59,529.59
+,Walk,551.59,560.59
+5.0,Spout movement,568.59,573.59
+,Cont reaching,572.59,601.59
+,Cont in vain,602.59,608.59
+,Cont licking,622.59,627.59
+,Walk,661.59,664.59
+6.0,Spout movement,687.59,691.59
+,Cont reaching,690.59,711.59
+,Cont in vain,712.59,737.59
+,Cont licking,739.59,750.59
+,Both in vain,773.59,786.59
+,Cont licking,802.59,807.59
+7.0,Spout movement,806.59,810.59
+,Cont reaching,808.59,817.59
+,Cont in vain,818.59,822.59
+,Cont in vain,823.59,840.59
+,Cont in vain,841.59,861.59
+,Cont licking,870.59,879.59
+8.0,Spout movement,932.59,937.59
+,Cont reaching,936.59,940.59
+,Cont in vain,941.59,944.59
+,Cont in vain,945.59,953.59
+,Cont in vain,954.59,977.59
+,Both in vain (3),1035.59,1055.59
+9.0,Spout movement,1051.59,1056.59
+,Cont reaching,1056.59,1062.59
+,Both in vain,1063.59,1073.59
+,Both in vain,1074.59,1079.59
+,Both in vain,1084.59,1086.59
+,Both in vain,1087.59,1089.59
+,Both in vain,1090.59,1093.59
+,Both in vain,1094.59,1099.59
+,Both in vain,1116.59,1121.59
+10.0,Spout movement,1170.59,1174.59
+,Cont reaching,1173.59,1176.59
+,Cont in vain,1177.59,1203.59
+,Cont in vain,1204.59,1209.59
+,Cont in vain,1266.59,1269.59
+,Walk,1284.59,1290.59
+11.0,Spout movement,1289.59,1293.59
+,Cont reaching,1292.59,1318.59
+,Cont in vain,1319.59,1323.59
+,Cont in vain,1324.59,1328.59
+12.0,Spout movement,1408.59,1412.59
+,Cont reaching,1411.59,1433.59
+,Cont in vain,1434.59,1438.59
+,Walk,1502.59,1520.59
+13.0,Spout movement,1526.59,1530.59
+,Cont reaching,1530.59,1569.59
+14.0,Spout movement,1645.59,1649.59
+,Cont reaching,1648.59,1659.59
+,Cont in vain,1660.59,1690.59
+,Cont licking,1691.59,1698.59
+15.0,Spout movement,1763.59,1768.59
+,Cont reaching,1766.59,1770.59
+,Cont in vain,1771.59,1782.59
+,Cont in vain,1796.59,1801.59
+16.0,Spout movement,1884.59,1889.59
+,Cont reaching,1888.59,1929.59
+17.0,Spout movement,2003.59,2008.59
+,Cont reaching,2006.59,2051.59
+,Walk,2048.59,2060.59
+,Walk,2074.59,2082.59
+,Cont in vain,2083.59,2092.59
+18.0,Spout movement,2122.59,2126.59
+,Cont reaching,2126.59,2159.59
+,Walk,2207.59,2220.59
+19.0,Spout movement,2241.59,2245.59
+,Cont reaching,2244.59,2257.59
+,Cont in vain,2258.59,2262.59
+,Cont in vain,2263.59,2265.59
+,Cont in vain,2269.59,2273.59
+,Walk,2323.59,2340.59
+,Walk,2358.59,2362.59
+20.0,Spout movement,2359.59,2364.59
+,Cont reaching,2363.59,2365.59
+,Cont in vain,2366.59,2371.59
+,Cont in vain,2372.59,2406.59
+21.0,Spout movement,2479.59,2484.59
+,Cont reaching,2483.59,2500.59
+,Cont in vain,2501.59,2509.59
+,Both in vain,2546.59,2555.59
+,Both in vain (2),2591.59,2600.59
+22.0,Spout movement,2598.59,2603.59
+,Cont reaching,2601.59,2604.59
+,Walk,2605.59,2614.59
+,Both in vain,2657.59,2667.59
+,Both in vain (4),2680.59,2722.59
+23.0,Spout movement,2720.59,2725.59
+,Cont reaching,2723.59,2761.59
+,Cont in vain,2762.59,2766.59
+,Walk,2817.59,2831.59
+24.0,Spout movement,2839.59,2843.59
+,Cont reaching,2842.59,2880.59
+,Cont in vain,2881.59,2886.59
+,Cont in vain,2887.59,2891.59
+25.0,Spout movement,2958.59,2962.59
+,Cont reaching,2961.59,2964.59
+,Cont in vain,2965.59,3005.59
+26.0,Spout movement,3079.59,3083.59
+,Cont reaching,3081.59,3119.59
+,Cont in vain,3122.59,3137.59
+27.0,Spout movement,3198.59,3203.59
+,Cont reaching,3201.59,3235.59
+,Cont in vain,3236.59,3247.59
+28.0,Spout movement,3316.59,3321.59
+,Cont reaching,3320.59,3363.59
+,Walk,3405.59,3413.59
+29.0,Spout movement,3435.59,3440.59
+,Cont reaching,3434.59,3444.59
+,Cont in vain,3445.59,3449.59
+,Cont in vain,3450.59,3487.59
+,Both in vain (8),3488.59,3513.59
+30.0,Spout movement,3560.59,3564.59
+,Cont reaching,3559.59,3588.59
+,Cont in vain,3589.59,3603.59
+,Both in vain (6),3626.59,3681.59
+31.0,Spout movement,3678.59,3683.59
+,Cont reaching,3682.59,3685.59
+,Cont in vain,3686.59,3704.59
+,Cont in vain,3713.59,3725.59
+,Both in vain (17),3729.59,3800.59
+32.0,Spout movement,3797.59,3802.59
+,Cont reaching,3800.59,3803.59
+,Cont in vain,3804.59,3825.59
+,Cont in vain,3837.59,3842.59
+,Walk,3890.59,3901.59
+33.0,Spout movement,3916.59,3920.59
+,Cont reaching,3919.59,3944.59
+,Cont in vain,3945.59,3950.59
+,Walk,3979.59,3988.59
+34.0,Spout movement,4034.59,4039.59
+,Cont reaching,4037.59,4078.59
+35.0,Spout movement,4153.59,4158.59
+,Cont reaching,4156.59,4185.59
+36.0,Spout movement,4272.59,4277.59
+,Cont reaching,4274.59,4291.59
+,Cont in vain,4292.59,4302.59
+,Cont in vain,4303.59,4310.59
+,Walk,4359.59,4378.59
+37.0,Spout movement,4390.59,4395.59
+,Cont reaching,4394.59,4407.59
+,Cont in vain,4408.59,4420.59
+,Cont in vain,4421.59,4424.59
+,Walk,4483.59,4494.59
+38.0,Spout movement,4509.59,4514.59
+,Cont reaching,4513.59,4529.59
+,Cont in vain,4530.59,4536.59
+39.0,Spout movement,4628.59,4632.59
+,Cont reaching,4630.59,4642.59
+,Cont in vain,4643.59,4656.59
+,Cont in vain,4657.59,4666.59
+,Cont in vain,4670.59,4680.59
+,Cont in vain,4685.59,4695.59
+,Cont in vain,4707.59,4716.59
+,Cont in vain,4717.59,4721.59
+40.0,Spout movement,4747.59,4751.59
+,Cont reaching,4750.59,4767.59
+,Cont in vain,4768.59,4772.59
+,Cont in vain,4773.59,4776.59
+41.0,Spout movement,4865.59,4870.59
+,Cont reaching,4867.59,4877.59
+,Cont in vain,4878.59,4896.59
+,Cont in vain,4897.59,4903.59
+42.0,Spout movement,4984.59,4988.59
+,Cont reaching,4987.59,5024.59
+,Cont in vain,5025.59,5031.59
+,Cont in vain,5058.59,5066.59
+43.0,Spout movement,5103.59,5108.59
+,Cont reaching,5106.59,5127.59
+,Cont in vain,5128.59,5135.59
+,Walk,5207.59,5224.59
+44.0,Spout movement,5221.59,5226.59
+,Cont reaching,5225.59,5235.59
+,Cont in vain,5236.59,5255.59
+,Cont in vain,5256.59,5268.59
+,Walk,5281.59,5293.59
+,Walk,5302.59,5311.59
+,Walk,5325.59,5332.59
+45.0,Spout movement,5340.59,5345.59
+,Cont reaching,5343.59,5346.59
+,Cont in vain,5347.59,5363.59
+,Cont in vain,5364.59,5372.59
+,Cont in vain,5383.59,5394.59
+,Walk,5395.59,5412.59
+,Walk,5452.59,5461.59
+46.0,Spout movement,5459.59,5464.59
+,Cont reaching,5465.59,5484.59
+,Cont in vain,5485.59,5495.59
+,Cont in vain,5562.59,5576.59
+,Both in vain,5577.59,5582.59
+47.0,Spout movement,5580.59,5585.59
+,Cont reaching,5583.59,5594.59
+,Cont in vain,5595.59,5613.59
+,Cont in vain,5616.59,5627.59
+,Walk,5651.59,5658.59
+48.0,Spout movement,5698.59,5703.59
+,Cont reaching,5702.59,5710.59
+,Cont in vain,5711.59,5714.59
+,Cont in vain,5715.59,5721.59
+,Tongue,5721.59,5722.59
+,Walk,5783.59,5795.59
+,Both in vain (8),5803.59,5833.59
+49.0,Spout movement,5831.59,5836.59
+,Cont reaching,5834.59,5843.59
+,Cont in vain,5844.59,5851.59
+,Cont in vain,5865.59,5877.59
+,Walk,5878.59,5900.59
+,Both in vain (8),5914.59,5954.59
+50.0,Spout movement,5950.59,5955.59
+,Both reaching,5955.59,5962.59
+,Both missed,5970.59,5974.59
+,Tongue,5977.59,5978.59
+,Walk,5975.59,5982.59
+51.0,Spout movement,6069.59,6073.59
+,Cont reaching,6071.59,6074.59
+,Cont in vain,6075.59,6080.59
+,Cont in vain,6084.59,6102.59
+52.0,Spout movement,6190.59,6194.59
+,Cont reaching,6193.59,6241.59
+,Cont licking,6243.59,6246.59
+,Both in vain (2),6248.59,6258.59
+,Walk,6259.59,6277.59
+53.0,Spout movement,6308.59,6313.59
+,Cont reaching,6312.59,6315.59
+,Cont in vain,6318.59,6351.59
+54.0,Spout movement,6427.59,6432.59
+,Cont reaching,6430.59,6445.59
+,Cont in vain,6446.59,6457.59
+,Cont in vain,6458.59,6464.59
+,Cont in vain,6465.59,6469.59
+,Walk,6512.59,6519.59
+,Walk,6543.59,6548.59
+55.0,Spout movement,6546.59,6550.59
+,Cont reaching,6549.59,6555.59
+,Cont in vain,6556.59,6568.59
+,Cont in vain,6569.59,6577.59
+,Cont in vain,6588.59,6595.59
+,Walk,6613.59,6620.59
+56.0,Spout movement,6664.59,6669.59
+,Cont reaching,6668.59,6681.59
+,Cont in vain,6682.59,6690.59
+,Both in vain (2),6691.59,6697.59
+,Cont in vain (2),6698.59,6705.59
+57.0,Spout movement,6783.59,6787.59
+,Cont reaching,6786.59,6795.59
+,Cont licking,6796.59,6802.59
+,Cont in vain,6803.59,6808.59
+,Cont in vain,6809.59,6812.59
+,Cont in vain,6813.59,6815.59
+,Ipsi moved,6810.59,6855.59
+,Both in vain (10),6856.59,6914.59
+58.0,Spout movement,6910.59,6914.59
+,Noise generation,6951.59,6983.59
+59.0,Spout movement,7063.59,7068.59
+,Cont reaching,7067.59,7079.59
+,Cont in vain,7080.59,7091.59
+60.0,Spout movement,7182.59,7187.59
+,Cont reaching,7186.59,7200.59
+,Cont in vain,7201.59,7227.59
+61.0,Spout movement,7301.59,7305.59
+,Cont reaching,7304.59,7310.59
+,Cont in vain,7311.59,7323.59
+,Cont in vain,7324.59,7331.59
+,Cont in vain,7343.59,7347.59
+,Walk,7359.59,7373.59
+,Walk,7380.59,7387.59
+,Walk,7405.59,7417.59
+62.0,Spout movement,7420.59,7424.59
+,Cont reaching,7424.59,7443.59
+,Cont in vain,7444.59,7448.59
+63.0,Spout movement,7538.59,7543.59
+,Cont reaching,7542.59,7547.59
+,Cont in vain,7548.59,7558.59
+,Walk,7608.59,7616.59
+64.0,Spout movement,7657.59,7661.59
+,Cont reaching,7661.59,7672.59
+,Cont in vain,7673.59,7691.59
+,Cont in vain,7697.59,7704.59
+,Both in vain,7733.59,7741.59
+,Both in vain (2),7768.59,7777.59
+65.0,Spout movement,7776.59,7780.59
+,Noise generation,7817.59,7852.59
+66.0,Spout movement,7930.59,7934.59
+,Cont reaching,7934.59,7941.59
+,Cont in vain,7942.59,7948.59
+,Cont in vain,7949.59,7954.59
+,Both licking,8015.59,8030.59
+,Both in vain (7),8031.59,8051.59
+67.0,Spout movement,8048.59,8053.59
+,Cont reaching,8052.59,8067.59
+,Both in vain (5),8081.59,8110.59
+,Both in vain (18),8124.59,8199.59
+68.0,Spout movement,8195.59,8199.59
+,Both reaching,8200.59,8207.59
+,Cont in vain,8211.59,8230.59
+,Cont in vain,8231.59,8239.59
+,Both in vain (10),8241.59,8275.59
+69.0,Spout movement,8315.59,8320.59
+,Cont reaching,8319.59,8342.59
+,Ipsi moved,8328.59,8349.59
+70.0,Spout movement,8434.59,8438.59
+,Cont reaching,8438.59,8448.59
+,Cont in vain,8449.59,8466.59
+,two photon imaging,,8476.59

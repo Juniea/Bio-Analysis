@@ -1,0 +1,635 @@
+Trial,Behavior,Start,End
+,walk,25.59,29.59
+,walk,42.59,46.59
+,both licking,47.59,58.59
+,walk,59.59,60.59
+,both in vain,61.59,62.59
+,both in vain,63.59,65.59
+,both in vain,66.59,69.59
+,both licking,70.59,71.59
+,both in vain,72.59,73.59
+,both in vain,74.59,75.59
+,both licking,76.59,78.59
+,both in vain,79.59,80.59
+,both in vain,81.59,82.59
+,both in vain,83.59,85.59
+,both in vain,86.59,90.59
+,walk,91.59,95.59
+1.0,valve opened,90.59,94.59
+,cont reach,96.59,131.59
+,walk,152.59,168.59
+,walk,185.59,187.59
+2.0,valve opened,209.59,212.59
+,cont reach,212.59,222.59
+,walk,223.59,235.59
+3.0,valve opened,325.59,328.59
+,cont reach,327.59,361.59
+,both in vain,362.59,371.59
+,both in vain,373.59,379.59
+,walk,384.59,395.59
+4.0,valve opened,440.59,443.59
+,cont reach,442.59,453.59
+,walk,547.59,557.59
+5.0,valve opened,555.59,559.59
+,cont reach,558.59,564.59
+,cont in vain,565.59,580.59
+,both in vain,582.59,593.59
+,both in vain,594.59,603.59
+,both in vain,604.59,616.59
+,both in vain,621.59,629.59
+,both in vain,632.59,639.59
+,both in vain,651.59,662.59
+,walk,663.59,673.59
+6.0,valve opened,671.59,675.59
+,cont reach,674.59,711.59
+,walk,712.59,734.59
+7.0,valve opened,787.59,790.59
+,cont reach,789.59,795.59
+,both in vain,796.59,807.59
+,cont in vain,809.59,812.59
+,cont licking,813.59,827.59
+,both in vain,828.59,838.59
+,both in vain,839.59,843.59
+,walk,845.59,875.59
+,walk,898.59,904.59
+8.0,valve opened,902.59,905.59
+,cont reach,905.59,925.59
+,walk,957.59,959.59
+,both licking,960.59,978.59
+,both in vain,979.59,988.59
+,walk,1001.59,1011.59
+9.0,valve opened,1018.59,1021.59
+,cont reach,1021.59,1038.59
+,walk,1059.59,1068.59
+10.0,valve opened,1134.59,1138.59
+,walk,1136.59,1138.59
+,cont reach,1139.59,1150.59
+,cont in vain,1151.59,1163.59
+,both in vain,1165.59,1174.59
+,both in vain,1175.59,1179.59
+,both in vain,1180.59,1185.59
+,both in vain,1186.59,1197.59
+,both in vain,1198.59,1207.59
+,both in vain,1208.59,1216.59
+,both in vain,1217.59,1218.59
+,both in vain,1219.59,1222.59
+,both in vain,1223.59,1225.59
+,both in vain,1226.59,1229.59
+,both in vain,1230.59,1232.59
+,both in vain,1233.59,1234.59
+,both in vain,1235.59,1236.59
+,both licking,1237.59,1239.59
+,walk,1240.59,1247.59
+11.0,valve opened,1251.59,1254.59
+,cont reach,1254.59,1256.59
+,cont in vain,1257.59,1272.59
+,ipsi moved,1258.59,1261.59
+,both licking,1290.59,1294.59
+,both in vain,1295.59,1298.59
+,both licking,1299.59,1314.59
+,both in vain,1315.59,1318.59
+,both in vain,1319.59,1321.59
+,both in vain,1322.59,1325.59
+,both in vain,1326.59,1328.59
+,both in vain,1329.59,1332.59
+,walk,1333.59,1357.59
+,both licking,1358.59,1369.59
+12.0,valve opened,1366.59,1370.59
+,both reach,1370.59,1376.59
+,both in vain,1377.59,1379.59
+,both in vain,1380.59,1382.59
+,both licking,1383.59,1389.59
+,walk,1390.59,1395.59
+,both in vain,1396.59,1397.59
+,both licking,1398.59,1403.59
+,both in vain,1404.59,1409.59
+,both in vain,1421.59,1426.59
+,both in vain,1427.59,1436.59
+,both licking,1437.59,1444.59
+,both in vain,1447.59,1456.59
+,walk,1457.59,1460.59
+,both licking,1461.59,1466.59
+,walk,1479.59,1484.59
+13.0,valve opened,1482.59,1485.59
+,cont reach,1485.59,1522.59
+,walk,1523.59,1528.59
+,cont in vain,1529.59,1536.59
+,walk,1544.59,1563.59
+14.0,valve opened,1597.59,1601.59
+,cont reach,1600.59,1641.59
+,walk,1682.59,1696.59
+15.0,valve opened,1713.59,1717.59
+,cont reach,1716.59,1755.59
+,walk,1814.59,1830.59
+16.0,valve opened,1829.59,1833.59
+,cont reach,1831.59,1872.59
+17.0,valve opened,1944.59,1948.59
+,cont reach,1946.59,1954.59
+,cont in vain,1955.59,1986.59
+,walk,2056.59,2062.59
+18.0,valve opened,2059.59,2063.59
+,cont reach,2063.59,2074.59
+,cont in vain,2079.59,2090.59
+,walk,2101.59,2145.59
+,walk,2172.59,2179.59
+19.0,valve opened,2176.59,2180.59
+,cont reach,2180.59,2201.59
+,cont in vain,2215.59,2220.59
+,walk,2221.59,2244.59
+20.0,valve opened,2293.59,2296.59
+,cont reach,2295.59,2305.59
+,cont in vain,2306.59,2311.59
+,both licking,2312.59,2318.59
+,both in vain,2319.59,2325.59
+,both in vain,2329.59,2334.59
+,both in vain,2335.59,2337.59
+,both licking,2338.59,2348.59
+,both in vain,2349.59,2351.59
+,both in vain,2352.59,2354.59
+,both in vain,2355.59,2357.59
+,both in vain,2358.59,2362.59
+,both in vain,2363.59,2365.59
+,both in vain,2366.59,2367.59
+,both in vain,2368.59,2370.59
+,both in vain,2371.59,2373.59
+,both in vain,2374.59,2375.59
+,both in vain,2376.59,2378.59
+,both licking,2379.59,2384.59
+,both in vain,2385.59,2387.59
+,both in vain,2388.59,2390.59
+,both licking,2391.59,2393.59
+,both in vain,2394.59,2402.59
+,both in vain,2403.59,2405.59
+,both in vain,2406.59,2408.59
+21.0,valve opened,2408.59,2411.59
+,both reach,2410.59,2415.59
+,both in vain,2423.59,2426.59
+,both in vain,2427.59,2430.59
+,both in vain,2436.59,2439.59
+,both in vain,2440.59,2449.59
+,walk,2456.59,2466.59
+,both in vain,2467.59,2474.59
+,both licking,2475.59,2481.59
+,both in vain,2482.59,2486.59
+,walk,2487.59,2515.59
+22.0,valve opened,2523.59,2527.59
+,cont reach,2528.59,2538.59
+,both in vain,2540.59,2549.59
+,both in vain,2550.59,2559.59
+,both licking,2603.59,2607.59
+,both in vain,2608.59,2618.59
+,both in vain,2619.59,2625.59
+,both in vain,2638.59,2643.59
+23.0,valve opened,2641.59,2644.59
+,cont reach,2644.59,2652.59
+,both in vain,2653.59,2665.59
+,cont in vain,2666.59,2677.59
+,both in vain,2679.59,2686.59
+,both in vain,2696.59,2707.59
+,both in vain,2721.59,2726.59
+,both in vain,2727.59,2734.59
+,both in vain,2735.59,2741.59
+,both in vain,2742.59,2750.59
+,both in vain,2753.59,2757.59
+24.0,valve opened,2756.59,2759.59
+,cont reach,2758.59,2770.59
+,walk,2771.59,2777.59
+,both in vain,2778.59,2786.59
+,both in vain,2816.59,2825.59
+,both in vain,2826.59,2836.59
+,both in vain,2837.59,2838.59
+,both in vain,2839.59,2840.59
+,both in vain,2841.59,2847.59
+,both in vain,2848.59,2849.59
+,both in vain,2850.59,2851.59
+,both in vain,2852.59,2855.59
+,both in vain,2856.59,2857.59
+,both in vain,2858.59,2860.59
+,both in vain,2861.59,2863.59
+,walk,2864.59,2873.59
+25.0,valve opened,2871.59,2875.59
+,cont reach,2873.59,2883.59
+,both in vain,2884.59,2896.59
+,both in vain,2897.59,2905.59
+,both in vain,2940.59,2945.59
+,both in vain,2946.59,2953.59
+,both in vain,2954.59,2961.59
+,walk,2984.59,2989.59
+26.0,valve opened,2988.59,2991.59
+,cont reach,2990.59,2999.59
+,cont in vain,3000.59,3004.59
+,both in vain,3007.59,3014.59
+,both in vain,3015.59,3024.59
+,both in vain,3034.59,3042.59
+,both in vain,3097.59,3101.59
+,both in vain,3102.59,3105.59
+27.0,valve opened,3103.59,3107.59
+,walk,3106.59,3108.59
+,both reach,3109.59,3117.59
+,both in vain,3118.59,3122.59
+,both in vain,3123.59,3132.59
+,both in vain,3133.59,3142.59
+,both in vain,3143.59,3145.59
+,both in vain,3146.59,3150.59
+,both in vain,3151.59,3157.59
+,both in vain,3158.59,3162.59
+,both in vain,3163.59,3169.59
+,both in vain,3172.59,3175.59
+,both in vain,3176.59,3188.59
+,both in vain,3189.59,3192.59
+,both licking,3193.59,3196.59
+,both in vain,3197.59,3202.59
+,both in vain,3203.59,3209.59
+,both in vain,3210.59,3213.59
+,both in vain,3218.59,3222.59
+28.0,valve opened,3221.59,3225.59
+,cont reach,3223.59,3233.59
+,both in vain,3234.59,3241.59
+,both in vain,3242.59,3251.59
+,both in vain,3252.59,3263.59
+,both in vain,3264.59,3274.59
+,both in vain,3275.59,3277.59
+,both in vain,3278.59,3279.59
+,both in vain,3280.59,3284.59
+,both in vain,3285.59,3299.59
+,both in vain,3300.59,3302.59
+,both in vain,3303.59,3305.59
+,both in vain,3306.59,3307.59
+,both in vain,3308.59,3309.59
+,both in vain,3310.59,3311.59
+,both in vain,3314.59,3316.59
+,both in vain,3317.59,3319.59
+,both in vain,3323.59,3326.59
+,both in vain,3327.59,3331.59
+,both in vain,3332.59,3333.59
+,both in vain,3334.59,3335.59
+,both in vain,3336.59,3341.59
+,both in vain,3342.59,3347.59
+29.0,valve opened,3347.59,3351.59
+,cont reach,3349.59,3359.59
+,both in vain,3373.59,3390.59
+,both in vain,3391.59,3398.59
+,both in vain,3399.59,3401.59
+,both in vain,3402.59,3407.59
+,both in vain,3409.59,3414.59
+,both in vain,3422.59,3425.59
+,both in vain,3426.59,3430.59
+,both in vain,3431.59,3434.59
+,both in vain,3436.59,3441.59
+,both in vain,3442.59,3446.59
+,walk,3447.59,3456.59
+,both in vain,3457.59,3463.59
+30.0,valve opened,3462.59,3466.59
+,cont reach,3465.59,3474.59
+,both in vain,3475.59,3483.59
+,both in vain,3484.59,3494.59
+,both in vain,3495.59,3502.59
+,both in vain,3503.59,3509.59
+,both in vain,3525.59,3529.59
+,both in vain,3530.59,3534.59
+,both in vain,3535.59,3537.59
+,both in vain,3538.59,3541.59
+,both in vain,3542.59,3545.59
+,both in vain,3546.59,3548.59
+,both in vain,3549.59,3552.59
+,both in vain,3553.59,3556.59
+,both in vain,3557.59,3563.59
+,both in vain,3564.59,3574.59
+,both in vain,3575.59,3579.59
+,both in vain,3580.59,3581.59
+31.0,valve opened,3577.59,3581.59
+,both reach,3582.59,3588.59
+,both in vain,3589.59,3598.59
+,both in vain,3599.59,3611.59
+,both in vain,3613.59,3621.59
+,both in vain,3627.59,3631.59
+,both in vain,3632.59,3637.59
+,both in vain,3638.59,3642.59
+,both in vain,3643.59,3644.59
+,both in vain,3645.59,3648.59
+,both in vain,3649.59,3650.59
+,both in vain,3651.59,3654.59
+,both in vain,3655.59,3658.59
+,both in vain,3659.59,3665.59
+,both in vain,3666.59,3671.59
+,both in vain,3672.59,3675.59
+,both in vain,3688.59,3694.59
+,both in vain,3695.59,3699.59
+,both in vain,3700.59,3703.59
+32.0,valve opened,3702.59,3705.59
+,both reach,3705.59,3711.59
+,both in vain,3713.59,3722.59
+,both in vain,3730.59,3741.59
+,both in vain,3742.59,3748.59
+,both in vain,3762.59,3765.59
+,both in vain,3766.59,3769.59
+,both in vain,3770.59,3772.59
+,both in vain,3773.59,3775.59
+,both in vain,3776.59,3777.59
+,both in vain,3778.59,3782.59
+,both in vain,3784.59,3791.59
+,both in vain,3792.59,3797.59
+,both in vain,3798.59,3800.59
+,both in vain,3801.59,3803.59
+,both in vain,3804.59,3811.59
+,both in vain,3814.59,3818.59
+33.0,valve opened,3817.59,3821.59
+,cont reach,3819.59,3828.59
+,both in vain,3837.59,3847.59
+,both in vain,3848.59,3853.59
+,both in vain,3854.59,3857.59
+,both in vain,3858.59,3864.59
+,both in vain,3865.59,3868.59
+,both in vain,3881.59,3887.59
+,both in vain,3888.59,3890.59
+,both in vain,3891.59,3894.59
+,both in vain,3895.59,3898.59
+,both in vain,3899.59,3904.59
+,both in vain,3906.59,3910.59
+,both in vain,3911.59,3914.59
+,both in vain,3929.59,3933.59
+34.0,valve opened,3932.59,3936.59
+,cont reach,3934.59,3941.59
+,both in vain,3942.59,3953.59
+,walk,3954.59,3957.59
+,both in vain,3958.59,3970.59
+,both in vain,3971.59,3978.59
+,both in vain,3997.59,4003.59
+,both in vain,4019.59,4023.59
+,both in vain,4024.59,4028.59
+,both in vain,4029.59,4032.59
+,both in vain,4033.59,4036.59
+,both in vain,4037.59,4038.59
+,both in vain,4039.59,4042.59
+,both in vain,4043.59,4047.59
+,both in vain,4048.59,4055.59
+35.0,valve opened,4056.59,4059.59
+,both reach,4056.59,4063.59
+,both in vain,4064.59,4065.59
+,both in vain,4066.59,4067.59
+,both in vain,4068.59,4076.59
+,both in vain,4077.59,4085.59
+,both in vain,4086.59,4090.59
+,both in vain,4091.59,4098.59
+,both in vain,4099.59,4103.59
+,both in vain,4104.59,4108.59
+,both in vain,4109.59,4111.59
+,both in vain,4112.59,4113.59
+,both in vain,4114.59,4119.59
+,both in vain,4120.59,4122.59
+,both in vain,4123.59,4127.59
+,both in vain,4128.59,4131.59
+,both in vain,4132.59,4135.59
+,both in vain,4136.59,4140.59
+,both in vain,4141.59,4144.59
+,both in vain,4145.59,4148.59
+,both in vain,4149.59,4153.59
+,walk,4154.59,4184.59
+36.0,valve opened,4176.59,4180.59
+,cont reach,4185.59,4194.59
+,walk,4250.59,4253.59
+,both in vain,4254.59,4257.59
+,both in vain,4258.59,4271.59
+,both in vain,4272.59,4283.59
+,both in vain,4284.59,4288.59
+,both in vain,4289.59,4291.59
+,both in vain,4292.59,4296.59
+,walk,4297.59,4305.59
+37.0,valve opened,4298.59,4302.59
+,cont reach,4306.59,4314.59
+,cont in vain,4315.59,4326.59
+,cont in vain,4327.59,4338.59
+,cont in vain,4339.59,4348.59
+,cont in vain,4368.59,4383.59
+,cont in vain,4384.59,4395.59
+,cont in vain,4403.59,4410.59
+,cont in vain,4411.59,4420.59
+38.0,valve opened,4419.59,4422.59
+,cont reach,4421.59,4431.59
+,both in vain,4432.59,4442.59
+,both in vain,4452.59,4461.59
+,both in vain,4462.59,4470.59
+,both in vain,4479.59,4482.59
+,both in vain,4483.59,4487.59
+,both in vain,4488.59,4489.59
+,both in vain,4490.59,4501.59
+,both in vain,4502.59,4504.59
+,both in vain,4505.59,4508.59
+,both in vain,4509.59,4510.59
+,both in vain,4511.59,4514.59
+,both in vain,4515.59,4517.59
+,both in vain,4520.59,4525.59
+,both in vain,4526.59,4531.59
+,both in vain,4532.59,4536.59
+39.0,valve opened,4534.59,4538.59
+,both reach,4537.59,4545.59
+,both in vain,4546.59,4556.59
+,both in vain,4563.59,4568.59
+,cont in vain,4569.59,4580.59
+,both in vain,4581.59,4587.59
+,both in vain,4588.59,4598.59
+,both in vain,4614.59,4620.59
+,both in vain,4621.59,4623.59
+,both in vain,4624.59,4627.59
+,both in vain,4628.59,4630.59
+,both in vain,4631.59,4632.59
+,both in vain,4633.59,4637.59
+,both in vain,4640.59,4644.59
+,both in vain,4645.59,4647.59
+,both in vain,4648.59,4651.59
+40.0,valve opened,4649.59,4653.59
+,both reach,4653.59,4663.59
+,both in vain,4681.59,4698.59
+,both in vain,4699.59,4707.59
+,both in vain,4724.59,4732.59
+,both in vain,4733.59,4738.59
+,both in vain,4745.59,4754.59
+,both in vain,4755.59,4756.59
+,both in vain,4757.59,4758.59
+,both in vain,4759.59,4760.59
+,both licking,4761.59,4767.59
+41.0,valve opened,4765.59,4768.59
+,both reach,4768.59,4774.59
+,both in vain,4775.59,4780.59
+,both in vain,4785.59,4797.59
+,both in vain,4803.59,4807.59
+,both in vain,4808.59,4812.59
+,both in vain,4813.59,4817.59
+,both in vain,4818.59,4821.59
+,walk,4822.59,4859.59
+42.0,valve opened,4881.59,4884.59
+,noise generation,4920.59,4955.89
+,both in vain,5004.59,5009.59
+,walk,5010.59,5034.59
+43.0,valve opened,5031.59,5035.59
+,cont reach,5035.59,5050.59
+44.0,valve opened,5148.59,5152.59
+,cont reach,5151.59,5166.59
+,walk,5167.59,5171.59
+,cont in vain,5172.59,5181.59
+,walk,5197.59,5203.59
+45.0,valve opened,5264.59,5268.59
+,cont reach,5269.59,5277.59
+,both in vain,5278.59,5288.59
+,both in vain,5290.59,5299.59
+,both in vain,5303.59,5310.59
+,both in vain,5338.59,5348.59
+,both in vain,5349.59,5352.59
+,both in vain,5353.59,5364.59
+,both in vain,5365.59,5374.59
+,both in vain,5376.59,5378.59
+,both in vain,5379.59,5380.59
+,both in vain,5381.59,5383.59
+46.0,valve opened,5382.59,5385.59
+,both reach,5384.59,5395.59
+,both in vain,5396.59,5406.59
+,walk,5407.59,5415.59
+,both in vain,5416.59,5422.59
+,walk,5424.59,5451.59
+47.0,valve opened,5497.59,5501.59
+,walk,5499.59,5505.59
+,walk,5525.59,5547.59
+,noise generation,5536.59,5571.89
+,walk,5575.59,5579.59
+48.0,valve opened,5647.59,5651.59
+,walk,5650.59,5652.59
+,cont reach,5653.59,5661.59
+,both in vain,5662.59,5672.59
+,walk,5673.59,5686.59
+49.0,valve opened,5765.59,5769.59
+,cont reach,5768.59,5776.59
+50.0,valve opened,5881.59,5885.59
+,cont reach,5884.59,5895.59
+,both in vain,5896.59,5903.59
+,both in vain,5904.59,5911.59
+,both licking,5912.59,5921.59
+,both in vain,5922.59,5928.59
+,both in vain,5930.59,5934.59
+,both in vain,5935.59,5939.59
+,both in vain,5940.59,5942.59
+,both in vain,5943.59,5946.59
+,both in vain,5949.59,5951.59
+,both in vain,5952.59,5953.59
+,both in vain,5954.59,5957.59
+,both in vain,5958.59,5960.59
+,both in vain,5958.59,5965.59
+,both in vain,5966.59,5972.59
+,both in vain,5973.59,5974.59
+,both in vain,5975.59,5977.59
+,both in vain,5982.59,5983.59
+,both in vain,5984.59,5986.59
+,both in vain,5987.59,5988.59
+,both in vain,5990.59,5991.59
+,both in vain,5992.59,5994.59
+,both in vain,5995.59,5996.59
+,both in vain,5997.59,5998.59
+51.0,valve opened,5997.59,6000.59
+,cont reach,5999.59,6005.59
+,both in vain,6006.59,6016.59
+,both in vain,6018.59,6028.59
+,both in vain,6029.59,6033.59
+,both in vain,6036.59,6041.59
+,both in vain,6042.59,6045.59
+,both in vain,6069.59,6071.59
+,both in vain,6072.59,6073.59
+,both in vain,6074.59,6075.59
+,both in vain,6076.59,6079.59
+,both in vain,6080.59,6081.59
+,both in vain,6082.59,6086.59
+,walk,6087.59,6091.59
+,both licking,6092.59,6113.59
+52.0,valve opened,6112.59,6115.59
+,cont reach,6114.59,6122.59
+,both in vain,6123.59,6130.59
+,both in vain,6132.59,6142.59
+,both in vain,6143.59,6153.59
+,both in vain,6181.59,6183.59
+,both in vain,6184.59,6185.59
+,both in vain,6186.59,6188.59
+,both in vain,6189.59,6190.59
+,both in vain,6191.59,6193.59
+,both in vain,6194.59,6196.59
+,both in vain,6199.59,6202.59
+,both in vain,6203.59,6207.59
+,walk,6208.59,6229.59
+53.0,valve opened,6227.59,6231.59
+,noise generation,6266.59,6301.89
+54.0,valve opened,6377.59,6381.59
+,walk,6380.59,6390.59
+,cont reach,6392.59,6404.59
+55.0,valve opened,6508.59,6511.59
+,noise generation,6547.59,6582.89
+56.0,valve opened,6658.59,6662.59
+,noise generation,6697.59,6732.89
+57.0,valve opened,6808.59,6812.59
+,noise generation,6848.59,6883.89
+58.0,valve opened,6959.59,6962.59
+,walk,6961.59,6962.59
+,cont reach,6963.59,6981.59
+,cont in vain,6983.59,6992.59
+59.0,valve opened,7076.59,7080.59
+,noise generation,7115.59,7150.89
+60.0,valve opened,7226.59,7230.59
+,walk,7229.59,7230.59
+,cont reach,7231.59,7239.59
+61.0,valve opened,7344.59,7347.59
+,walk,7346.59,7352.59
+,noise generation,7383.59,7418.89
+,walk,7480.59,7485.59
+,both in vain,7486.59,7490.59
+,both in vain,7491.59,7494.59
+62.0,valve opened,7494.59,7497.59
+,both reach,7495.59,7501.59
+,both in vain,7502.59,7511.59
+,both in vain,7512.59,7521.59
+,both in vain,7523.59,7528.59
+,both in vain,7529.59,7533.59
+,both in vain,7534.59,7538.59
+,both in vain,7539.59,7540.59
+,both in vain,7541.59,7542.59
+,both in vain,7543.59,7544.59
+,both in vain,7545.59,7546.59
+,both in vain,7547.59,7549.59
+,both in vain,7550.59,7551.59
+,both in vain,7552.59,7553.59
+,both in vain,7554.59,7556.59
+,walk,7557.59,7586.59
+,both in vain,7587.59,7595.59
+,both in vain,7596.59,7597.59
+,both in vain,7598.59,7603.59
+,both in vain,7604.59,7606.59
+,both in vain,7607.59,7608.59
+,both in vain,7609.59,7611.59
+,both in vain,7612.59,7613.59
+,both in vain,7614.59,7616.59
+,both in vain,7617.59,7618.59
+63.0,valve opened,7616.59,7619.59
+,both reach,7619.59,7629.59
+,both in vain,7630.59,7635.59
+,both in vain,7636.59,7640.59
+,both in vain,7641.59,7642.59
+,both in vain,7643.59,7649.59
+,both in vain,7650.59,7659.59
+,both in vain,7660.59,7662.59
+,both in vain,7663.59,7664.59
+,both in vain,7665.59,7666.59
+,both in vain,7667.59,7668.59
+,both in vain,7669.59,7671.59
+,both in vain,7672.59,7677.59
+,both in vain,7678.59,7680.59
+,both in vain,7681.59,7685.59
+,walk,7687.59,7712.59
+64.0,valve opened,7731.59,7735.59
+,noise generation,7770.59,7805.89
+65.0,valve opened,7881.59,7885.59
+,noise generation,7920.59,7955.89
+66.0,valve opened,8032.59,8036.59
+,walk,8034.59,8045.59
+,noise generation,8071.59,8106.89
+67.0,valve opened,8182.59,8186.59
+,walk,8184.59,8192.59
+,noise generation,8221.59,8225.59
+68.0,valve opened,8332.59,8336.59
+,spout movement after whisker detection,8372.59,8376.59
+69.0,valve opened,8447.59,8451.59
+,two photon imaging,,8486.59

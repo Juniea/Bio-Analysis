@@ -1,0 +1,448 @@
+Trial,Behavior,Start,End
+1.0,Spout movement,92.59,97.59
+,Cont reach,96.59,99.59
+,Cont in vain,100.59,116.59
+,Cont in vain,117.59,132.59
+,Both paw licking,145.59,152.59
+,Walk,153.59,162.59
+,Walk,195.59,200.59
+2.0,Spout movement,211.59,216.59
+,Cont missed,213.59,216.59
+,Cont reach,217.59,242.59
+,Ipsi moved,222.59,243.59
+,Cont in vain,243.59,258.59
+,Ipsi moved,247.59,259.59
+,Walk,260.59,264.59
+,Both in vain (2),265.59,284.59
+,Both in vain (3),302.59,333.59
+3.0,Spout movement,331.59,336.59
+,Cont reach,334.59,357.59
+,Ipsi moved,338.59,359.59
+,Cont in vain,358.59,372.59
+,Cont in vain,373.59,375.59
+,Ipsi moved,362.59,375.59
+,Walk,378.59,383.59
+,Both in vain (4),384.59,404.59
+,Walk,405.59,412.59
+,Walk,430.59,442.59
+4.0,Spout movement,450.59,455.59
+,Cont missed,452.59,456.59
+,Cont reach,457.59,480.59
+,Ipsi moved,466.59,482.59
+,Cont in vain,481.59,513.59
+,Ipsi moved,486.59,513.59
+,Walk,514.59,530.59
+,Cont in vain,546.59,552.59
+,Walk,555.59,558.59
+5.0,Spout movement,571.59,576.59
+,Cont reach,573.59,576.59
+,Cont in vain,577.59,588.59
+,Cont in vain,589.59,610.59
+,Cont in vain,611.59,626.59
+,Ipsi moved,586.59,626.59
+,Both in vain (8),627.59,694.59
+6.0,Spout movement,691.59,695.59
+,Both paw licking,695.59,707.59
+,Cont reach,708.59,718.59
+,Ipsi moved,711.59,721.59
+,Cont in vain,719.59,720.59
+,Cont in vain,721.59,747.59
+,Ipsi moved,735.59,747.59
+,Both in vain,752.59,760.59
+,Both in vain,761.59,768.59
+7.0,Spout movement,812.59,816.59
+,Cont reach,814.59,823.59
+,Cont in vain,824.59,838.59
+,Ipsi moved,828.59,840.59
+,Cont in vain,839.59,853.59
+,Ipsi moved,847.59,855.59
+,Cont in vain,854.59,864.59
+,Walk,865.59,877.59
+,Walk,908.59,925.59
+8.0,Spout movement,933.59,938.59
+,Cont reach,936.59,943.59
+,Cont in vain,944.59,951.59
+,Cont in vain,952.59,973.59
+,Ipsi moved,958.59,975.59
+,Cont in vain,974.59,979.59
+,Ipsi moved,979.59,983.59
+,Cont in vain,980.59,984.59
+,Both paw licking,1003.59,1012.59
+,Walk,1013.59,1022.59
+,Walk,1042.59,1047.59
+9.0,Spout movement,1059.59,1064.59
+,Cont reach,1061.59,1066.59
+,Cont in vain,1067.59,1079.59
+,Ipsi moved,1072.59,1080.59
+,Cont in vain,1080.59,1098.59
+,Ipsi moved,1085.59,1100.59
+,Cont in vain,1099.59,1116.59
+,Ipsi moved,1101.59,1116.59
+,Both paw licking,1117.59,1124.59
+,Both in vain (4),1125.59,1139.59
+,Cont in vain,1154.59,1157.59
+,Walk,1158.59,1174.59
+10.0,Spout movement,1177.59,1182.59
+,Cont reach,1181.59,1183.59
+,Cont in vain,1184.59,1190.59
+,Cont in vain,1191.59,1196.59
+,Cont in vain,1197.59,1223.59
+,Ipsi moved,1206.59,1219.59
+,Both paw licking,1229.59,1234.59
+,Walk,1235.59,1246.59
+11.0,Spout movement,1296.59,1301.59
+,Cont reach,1299.59,1301.59
+,Cont in vain,1302.59,1311.59
+,Ipsi moved,1308.59,1314.59
+,Cont in vain,1312.59,1332.59
+,Ipsi moved,1318.59,1334.59
+,Cont in vain,1333.59,1340.59
+,Walk,1341.59,1352.59
+12.0,Spout movement,1415.59,1419.59
+,Cont reach,1417.59,1423.59
+,Cont in vain,1424.59,1439.59
+,Ipsi moved,1429.59,1450.59
+,Cont in vain,1440.59,1448.59
+,Cont in vain,1449.59,1469.59
+,Ipsi moved,1453.59,1469.59
+,Both paw licking,1470.59,1479.59
+,Both in vain (2),1480.59,1486.59
+,Walk,1487.59,1493.59
+,Walk,1517.59,1524.59
+13.0,Spout movement,1533.59,1538.59
+,Cont reach,1535.59,1540.59
+,Cont in vain,1541.59,1558.59
+,Ipsi moved,1547.59,1573.59
+,Cont in vain,1559.59,1569.59
+,Cont in vain,1570.59,1578.59
+,Ipsi moved,1575.59,1578.59
+,Both paw licking,1579.59,1591.59
+,Cont in vain,1592.59,1597.59
+,Both in vain,1598.59,1604.59
+,Walk,1605.59,1614.59
+,Walk,1634.59,1644.59
+14.0,Spout movement,1652.59,1657.59
+,Cont reach,1655.59,1659.59
+,Cont in vain,1660.59,1674.59
+,Cont in vain,1675.59,1685.59
+,Ipsi moved,1683.59,1685.59
+,Both paw licking,1686.59,1691.59
+,Cont in vain,1692.59,1711.59
+,Walk,1733.59,1740.59
+,Walk,1766.59,1772.59
+15.0,Spout movement,1771.59,1776.59
+,Cont missed,1773.59,1775.59
+,Cont reach,1776.59,1777.59
+,Cont in vain,1778.59,1781.59
+,Cont in vain,1782.59,1798.59
+,Ipsi moved,1786.59,1800.59
+,Cont in vain,1799.59,1805.59
+,Cont in vain,1806.59,1824.59
+,Ipsi moved,1814.59,1824.59
+,Both in vain (2),1827.59,1839.59
+16.0,Spout movement,1890.59,1895.59
+,Cont missed,1893.59,1896.59
+,Cont reach,1897.59,1906.59
+,Ipsi moved,1900.59,1908.59
+,Cont in vain,1907.59,1921.59
+,Ipsi moved,1911.59,1922.59
+,Cont in vain,1922.59,1931.59
+,Ipsi moved,1926.59,1939.59
+,Cont in vain,1935.59,1937.59
+,Walk,1967.59,1982.59
+17.0,Spout movement,2010.59,2015.59
+,Cont reach,2013.59,2014.59
+,Cont in vain,2015.59,2026.59
+,Ipsi moved,2022.59,2028.59
+,Cont in vain,2027.59,2037.59
+,Ipsi moved,2031.59,2038.59
+,Cont in vain,2038.59,2051.59
+,Ipsi moved,2043.59,2052.59
+,Cont in vain,2052.59,2056.59
+,Walk,2069.59,2078.59
+18.0,Spout movement,2129.59,2135.59
+,Cont reach,2131.59,2141.59
+,Ipsi moved,2137.59,2152.59
+,Cont in vain,2142.59,2150.59
+,Cont in vain,2151.59,2167.59
+,Ipsi moved,2161.59,2201.59
+,Cont in vain,2168.59,2175.59
+,Cont in vain,2176.59,2201.59
+,Both in vain (3),2202.59,2217.59
+,Walk,2218.59,2237.59
+19.0,Spout movement,2256.59,2261.59
+,Cont missed,2259.59,2261.59
+,Cont reach,2262.59,2272.59
+,Ipsi moved,2269.59,2294.59
+,Cont in vain,2273.59,2292.59
+,Cont in vain,2293.59,2301.59
+,Both paw licking,2308.59,2315.59
+,Both in vain (5),2316.59,2369.59
+,Walk,2370.59,2379.59
+20.0,Spout movement,2376.59,2381.59
+,Cont reach,2379.59,2382.59
+,Cont in vain,2383.59,2397.59
+,Cont in vain,2398.59,2414.59
+,Cont in vain,2415.59,2432.59
+,Cont in vain,2433.59,2438.59
+,Ipsi moved,2387.59,2399.59
+,Ipsi moved,2402.59,2416.59
+,Ipsi moved,2429.59,2438.59
+,Walk,2439.59,2455.59
+21.0,Spout movement,2495.59,2500.59
+,Cont reach,2498.59,2503.59
+,Ipsi moved,2500.59,2505.59
+,Cont in vain,2504.59,2511.59
+,Cont in vain,2512.59,2523.59
+,Cont in vain,2524.59,2541.59
+,Walk,2584.59,2591.59
+22.0,Spout movement,2615.59,2620.59
+,Cont reach,2618.59,2620.59
+,Cont in vain,2621.59,2633.59
+,Ipsi moved,2626.59,2636.59
+,Cont in vain,2634.59,2656.59
+,Ipsi moved,2640.59,2656.59
+,Walk,2657.59,2669.59
+,Walk,2722.59,2734.59
+23.0,Spout movement,2733.59,2739.59
+,Cont reach,2736.59,2741.59
+,Cont in vain,2742.59,2766.59
+,Ipsi moved,2747.59,2784.59
+,Cont in vain,2767.59,2784.59
+,Walk,2785.59,2803.59
+,Walk,2852.59,2857.59
+24.0,Spout movement,2856.59,2862.59
+,Cont missed,2859.59,2862.59
+,Cont reach,2863.59,2868.59
+,Cont in vain,2869.59,2883.59
+,Ipsi moved,2874.59,2885.59
+,Cont in vain,2884.59,2893.59
+,Cont in vain,2897.59,2903.59
+,Walk,2919.59,2927.59
+,Walk,2961.59,2964.59
+25.0,Spout movement,2975.59,2980.59
+,Cont reach,2979.59,2981.59
+,Cont in vain,2982.59,3004.59
+,Ipsi moved,2989.59,3001.59
+,Walk,3036.59,3046.59
+26.0,Spout movement,3094.59,3099.59
+,Cont missed,3096.59,3100.59
+,Cont reach,3101.59,3119.59
+,Ipsi moved,3106.59,3120.59
+,Cont in vain,3120.59,3141.59
+,Ipsi moved,3125.59,3141.59
+,Walk,3142.59,3168.59
+27.0,Spout movement,3214.59,3219.59
+,Cont reach,3218.59,3219.59
+,Cont in vain,3220.59,3228.59
+,Cont in vain,3229.59,3245.59
+,Ipsi moved,3237.59,3247.59
+,Cont in vain,3246.59,3257.59
+,Walk,3262.59,3275.59
+,Walk,3324.59,3334.59
+28.0,Spout movement,3332.59,3337.59
+,Cont missed,3335.59,3338.59
+,Cont reach,3339.59,3353.59
+,Ipsi moved,3346.59,3356.59
+,Cont in vain,3355.59,3359.59
+,Cont in vain,3360.59,3373.59
+,Cont in vain,3397.59,3404.59
+,Walk,3428.59,3442.59
+29.0,Spout movement,3452.59,3458.59
+,Cont reach,3456.59,3457.59
+,Cont in vain,3458.59,3467.59
+,Cont in vain,3468.59,3492.59
+,Ipsi moved,3474.59,3492.59
+,Walk,3526.59,3535.59
+30.0,Spout movement,3571.59,3576.59
+,Cont reach,3575.59,3584.59
+,Cont in vain,3585.59,3594.59
+,Ipsi moved,3591.59,3597.59
+,Cont in vain,3595.59,3610.59
+,Ipsi moved,3605.59,3612.59
+,Cont in vain,3611.59,3618.59
+,Walk,3621.59,3641.59
+31.0,Spout movement,3690.59,3695.59
+,Cont reach,3694.59,3708.59
+,Ipsi moved,3705.59,3710.59
+,Cont in vain,3709.59,3732.59
+,Ipsi moved,3716.59,3732.59
+,Both in vain (6),3733.59,3749.59
+,Cont in vain,3750.59,3752.59
+,Cont in vain,3753.59,3754.59
+,Walk,3755.59,3765.59
+32.0,Spout movement,3809.59,3814.59
+,Cont reach,3813.59,3822.59
+,Cont in vain,3823.59,3847.59
+,Ipsi moved,3827.59,3847.59
+,Both paw licking,3864.59,3875.59
+,Walk,3881.59,3894.59
+33.0,Spout movement,3928.59,3933.59
+,Cont reach,3932.59,3934.59
+,Cont in vain,3935.59,3944.59
+,Ipsi moved,3941.59,3978.59
+,Cont in vain,3945.59,3966.59
+,Both paw licking,3968.59,3971.59
+,Walk,3972.59,3978.59
+,Cont in vain (3),4009.59,4030.59
+34.0,Spout movement,4047.59,4052.59
+,Cont reach,4051.59,4057.59
+,Cont in vain,4058.59,4079.59
+,Ipsi moved,4067.59,4090.59
+,Cont in vain,4080.59,4085.59
+,Cont in vain,4086.59,4090.59
+,Both in vain ,4106.59,4119.59
+35.0,Spout movement,4166.59,4171.59
+,Cont missed,4170.59,4172.59
+,Cont reach,4173.59,4188.59
+,Ipsi moved,4179.59,4210.59
+,Cont in vain,4189.59,4210.59
+,Both in vain (2),4253.59,4266.59
+,Walk,4267.59,4272.59
+36.0,Spout movement,4287.59,4292.59
+,Cont reach,4290.59,4304.59
+,Ipsi moved,4298.59,4306.59
+,Cont in vain,4305.59,4316.59
+,Cont in vain,4317.59,4335.59
+,Ipsi moved,4322.59,4335.59
+,Walk,4355.59,4362.59
+,Walk,4398.59,4424.59
+37.0,Spout movement,4405.59,4410.59
+,Tongue,4412.59,4414.59
+,Noise generation,4447.59,4482.89
+38.0,Spout movement,4559.59,4564.59
+,Cont reach,4563.59,4567.59
+,Cont in vain,4568.59,4581.59
+,Ipsi moved,4576.59,4596.59
+,Cont in vain,4582.59,4596.59
+,Walk,4597.59,4612.59
+,Walk,4673.59,4693.59
+39.0,Spout movement,4679.59,4683.59
+,Noise generation,4720.59,4755.89
+40.0,Spout movement,4833.59,4838.59
+,Cont reach,4837.59,4842.59
+,Cont in vain,4843.59,4852.59
+,Ipsi moved,4850.59,4878.59
+,Cont in vain,4853.59,4860.59
+,Cont in vain,4861.59,4873.59
+,Walk,4882.59,4902.59
+,Walk,4947.59,4954.59
+41.0,Spout movement,4952.59,4957.59
+,Cont missed,4955.59,4958.59
+,Cont reach,4959.59,4968.59
+,Cont in vain,4969.59,4973.59
+,Cont in vain,4974.59,4979.59
+,Ipsi moved,4955.59,4973.59
+,Cont in vain,4987.59,4996.59
+,Both paw licking,5012.59,5018.59
+,Both in vain,5019.59,5020.59
+,Walk,5021.59,5039.59
+42.0,Spout movement,5072.59,5077.59
+,Cont reach,5076.59,5086.59
+,Cont in vain,5087.59,5099.59
+,Ipsi moved,5091.59,5101.59
+,Cont in vain,5101.59,5107.59
+,Both paw licking,5119.59,5124.59
+,Walk,5125.59,5135.59
+,Walk,5187.59,5193.59
+43.0,Spout movement,5190.59,5195.59
+,Cont missed,5194.59,5195.59
+,Tongue,5195.59,5198.59
+,Cont missed,5197.59,5200.59
+,Noise generation,5231.59,5266.89
+,Walk,5306.59,5320.59
+44.0,Spout movement,5344.59,5349.59
+,Cont reach,5348.59,5364.59
+,Ipsi moved,5348.59,5366.59
+,Ipsi moved,5371.59,5373.59
+,Cont in vain,5365.59,5373.59
+,Both paw licking,5374.59,5389.59
+,Both in vain (6),5390.59,5440.59
+,Both in vain (3),5442.59,5468.59
+45.0,Spout movement,5463.59,5468.59
+,Both reach,5469.59,5473.59
+,Both in vain,5474.59,5501.59
+,Both in vain,5502.59,5521.59
+,Both in vain,5522.59,5526.59
+,Walk,5527.59,5559.59
+46.0,Spout movement,5583.59,5588.59
+,Cont reach,5587.59,5595.59
+,Cont in vain,5596.59,5611.59
+,Walk,5661.59,5669.59
+,Walk,5690.59,5712.59
+47.0,Spout movement,5702.59,5707.59
+,Noise generation,5743.59,5778.89
+48.0,Spout movement,5856.59,5861.59
+,Cont missed,5860.59,5863.59
+,Cont reach,5864.59,5873.59
+,Cont in vain,5874.59,5898.59
+,Ipsi moved,5886.59,5898.59
+,Walk,5901.59,5913.59
+49.0,Spout movement,5976.59,5981.59
+,Cont missed,5980.59,5981.59
+,Cont reach,5982.59,5987.59
+,Cont in vain,5988.59,6007.59
+,Ipsi moved,5993.59,6016.59
+,Cont in vain,6008.59,6016.59
+,Walk,6034.59,6056.59
+,Walk,6072.59,6081.59
+50.0,Spout movement,6096.59,6101.59
+,Noise generation,6137.59,6172.89
+,Walk,6247.59,6253.59
+51.0,Spout movement,6250.59,6255.59
+,Cont missed,6254.59,6265.59
+,Ipsi moved,6255.59,6294.59
+,Cont reach,6266.59,6285.59
+,Cont in vain,6286.59,6294.59
+,Both paw licking,6295.59,6300.59
+,Walk,6301.59,6317.59
+52.0,Spout movement,6380.59,6385.59
+,Cont reach,6384.59,6392.59
+,Cont in vain,6393.59,6403.59
+,Ipsi moved,6399.59,6405.59
+,Cont in vain,6404.59,6414.59
+,Ipsi moved,6408.59,6414.59
+,Walk,6424.59,6436.59
+53.0,Spout movement,6500.59,6505.59
+,Noise generation,6541.59,6576.89
+,Walk,6619.59,6638.59
+54.0,Spout movement,6653.59,6658.59
+,Cont reach,6658.59,6662.59
+,Cont in vain,6663.59,6676.59
+,Ipsi moved,6670.59,6684.59
+,Cont in vain,6677.59,6684.59
+,Walk,6687.59,6702.59
+,Walk,6732.59,6737.59
+55.0,Spout movement,6772.59,6777.59
+,Noise generation,6813.59,6848.89
+56.0,Spout movement,6926.59,6931.59
+,Noise generation,6968.59,7003.89
+57.0,Spout movement,7080.59,7085.59
+,Cont missed,7084.59,7085.59
+,Cont reach,7086.59,7114.59
+,Ipsi moved,7088.59,7117.59
+,Both in vain,7118.59,7124.59
+,Both in vain (5),7125.59,7145.59
+,Walk,7146.59,7160.59
+,Walk,7173.59,7179.59
+58.0,Spout movement,7200.59,7205.59
+,Noise generation,7241.59,7276.89
+59.0,Spout movement,7354.59,7359.59
+,Noise generation,7396.59,7431.89
+60.0,Spout movement,7508.59,7513.59
+,Noise generation,7550.59,7585.89
+,Walk,7644.59,7648.59
+61.0,Spout movement,7662.59,7667.59
+,Noise generation,7704.59,7739.89
+62.0,Spout movement,7816.59,7821.59
+,Noise generation,7858.59,7893.89
+63.0,Spout movement,7970.59,7975.59
+,Noise generation,8012.59,8047.89
+64.0,Spout movement,8125.59,8130.59
+,Noise generation,8166.59,8201.89
+,Ipsi moved,8247.59,8283.59
+65.0,Spout movement,8279.59,8284.59
+,Noise generation,8320.59,8355.89
+66.0,Spout movement,8433.59,8438.59
+,Noise generation,8474.59,8486.59
+,two photon imaging,,8486.59

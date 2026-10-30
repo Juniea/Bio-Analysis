@@ -1,0 +1,259 @@
+﻿Trial,Behavior,Start,End
+1,valve opened,91.59,94.59
+,Cont miss,93.59,96.59
+,Cont reach,97.59,133.59
+2,valve opened,206.59,209.59
+,Cont reach,209.59,212.59
+,Cont in vain,213.59,230.59
+3,valve opened,322.59,325.59
+,Cont reach,324.59,347.59
+,Cont in vain,349.59,352.59
+,Cont in vain,353.59,358.59
+4,valve opened,437.59,441.59
+,Cont reach,439.59,457.59
+5,valve opened,553.59,556.59
+,Cont reach,555.59,574.59
+,walk,575.59,582.59
+6,valve opened,668.59,671.59
+,Cont reach,671.59,691.59
+,walk,692.59,708.59
+7,valve opened,783.59,786.59
+,Cont miss,786.59,788.59
+,walk,789.59,808.59
+8,valve opened,899.59,902.59
+,Cont reach,902.59,910.59
+,Cont in vain,911.59,913.59
+,Cont in vain,914.59,915.59
+,Cont in vain,916.59,918.59
+,Cont in vain,919.59,920.59
+,walk,921.59,928.59
+,Cont in vain,929.59,932.59
+,both in vain,933.59,934.59
+,walk,935.59,939.59
+,Cont in vain,940.59,941.59
+,Cont in vain,986.59,987.59
+,Cont in vain,999.59,1001.59
+9,valve opened,1014.59,1017.59
+,Cont reach,1015.59,1020.59
+,Cont in vain,1021.59,1022.59
+,Cont in vain,1023.59,1025.59
+10,valve opened,1130.59,1133.59
+,spout moved after wrong detection,1169.59,1172.59
+11,valve opened,1245.59,1248.59
+,spout moved after wrong detection,1285.59,1287.59
+12,valve opened,1361.59,1364.59
+,Cont reach,1363.59,1370.59
+,walk,1371.59,1384.59
+13,valve opened,1476.59,1479.59
+,walk,1495.59,1505.59
+,Both paw reach,1506.59,1508.59
+,both in vain,1509.59,1512.59
+,both in vain,1511.59,1514.59
+,both in vain,1515.59,1518.59
+,both in vain,1519.59,1521.59
+,both in vain,1522.59,1523.59
+,both in vain,1524.59,1525.59
+,both in vain,1526.59,1528.59
+,both in vain,1529.59,1531.59
+,walk,1532.59,1562.59
+14,valve opened,1591.59,1595.59
+,spout moved after wrong detection,1631.59,1634.59
+15,valve opened,1707.59,1711.59
+,spout moved after wrong detection,1746.59,1749.59
+16,valve opened,1822.59,1826.59
+,walk,1835.59,1845.59
+,walk,1860.59,1864.59
+,spout moved after wrong detection,1862.59,1865.59
+17,valve opened,1938.59,1942.59
+,spout moved after wrong detection,1977.59,1980.59
+18,valve opened,2053.59,2057.59
+,spout moved after wrong detection,2093.59,2096.59
+19,valve opened,2169.59,2172.59
+,Cont reach,2182.59,2186.59
+20,valve opened,2284.59,2288.59
+,spout moved after wrong detection,2324.59,2327.59
+21,valve opened,2400.59,2403.59
+,spout moved after wrong detection,2439.59,2442.59
+22,valve opened,2515.59,2519.59
+,spout moved after wrong detection,2554.59,2557.59
+23,valve opened,2630.59,2634.59
+,spout moved after wrong detection,2670.59,2673.59
+24,valve opened,2746.59,2750.59
+,walk,2751.59,2765.59
+,spout moved after wrong detection,2785.59,2788.59
+25,valve opened,2861.59,2865.59
+,spout moved after wrong detection,2901.59,2904.59
+26,valve opened,2977.59,2980.59
+,spout moved after wrong detection,3016.59,3019.59
+27,valve opened,3092.59,3096.59
+,spout moved after wrong detection,3131.59,3135.59
+28,valve opened,3207.59,3211.59
+,spout moved after wrong detection,3247.59,3250.59
+29,valve opened,3323.59,3327.59
+,spout moved after wrong detection,3362.59,3366.59
+30,valve opened,3438.59,3442.59
+,walk,3442.59,3443.59
+,Cont reach,3444.59,3449.59
+,Cont in vain,3450.59,3453.59
+,walk,3454.59,3460.59
+,both in vain,3461.59,3467.59
+,Cont in vain,3501.59,3503.59
+,Cont in vain,3505.59,3509.59
+,Cont in vain,3510.59,3512.59
+,Cont in vain,3516.59,3518.59
+,walk,3519.59,3531.59
+31,valve opened,3554.59,3558.59
+,spout moved after wrong detection,3593.59,3596.59
+32,valve opened,3669.59,3673.59
+,Cont reach,3673.59,3676.59
+,Cont in vain,3677.59,3682.59
+,walk,3683.59,3692.59
+,Cont in vain,3693.59,3699.59
+,Cont in vain,3700.59,3703.59
+,walk,3704.59,3707.59
+,Cont in vain,3708.59,3710.59
+33,valve opened,3785.59,3789.59
+,spout moved after wrong detection,3824.59,3827.59
+,Cont in vain,3840.59,3842.59
+,walk,3847.59,3851.59
+,Cont in vain,3852.59,3855.59
+,walk,3856.59,3869.59
+34,valve opened,3900.59,3904.59
+,spout moved after wrong detection,3940.59,3943.59
+,walk,3946.59,3976.59
+35,valve opened,4016.59,4019.59
+,Cont reach,4019.59,4021.59
+,Cont in vain,4022.59,4026.59
+,walk,4027.59,4033.59
+,walk,4040.59,4079.59
+36,valve opened,4131.59,4135.59
+,spout moved after wrong detection,4170.59,4173.59
+37,valve opened,4246.59,4250.59
+,Cont miss,4250.59,4251.59
+,Cont reach,4252.59,4254.59
+,walk,4255.59,4267.59
+38,valve opened,4362.59,4366.59
+,spout moved after wrong detection,4401.59,4404.59
+39,valve opened,4477.59,4481.59
+,walk,4497.59,4515.59
+,Cont reach,4516.59,4519.59
+,walk,4520.59,4525.59
+40,valve opened,4593.59,4596.59
+,spout moved after wrong detection,4632.59,4635.59
+,walk,4667.59,4673.59
+,Cont in vain,4674.59,4676.59
+,Both in vain,4680.59,4683.59
+,Both in vain,4686.59,4688.59
+,walk,4689.59,4699.59
+,walk,4702.59,4705.59
+,both in vain,4706.59,4709.59
+41,valve opened,4708.59,4712.59
+,both in vain,4710.59,4711.59
+,Both paw reach,4712.59,4714.59
+,walk,4715.59,4756.59
+42,valve opened,4823.59,4827.59
+,Cont reach,4826.59,4835.59
+,walk,4836.59,4841.59
+,Cont in vain,4842.59,4846.59
+,walk,4847.59,4852.59
+43,valve opened,4939.59,4943.59
+,spout moved after wrong detection,4978.59,4981.59
+44,valve opened,5054.59,5058.59
+,spout moved after wrong detection,5094.59,5097.59
+45,valve opened,5170.59,5174.59
+,spout moved after wrong detection,5209.59,5212.59
+,walk,5273.59,5283.59
+46,valve opened,5285.59,5289.59
+,spout moved after wrong detection,5325.59,5328.59
+47,valve opened,5401.59,5404.59
+,Cont reach,5404.59,5418.59
+,walk,5419.59,5421.59
+,Cont in vain,5422.59,5426.59
+,Cont in vain,5427.59,5429.59
+,walk,5430.59,5432.59
+,Cont in vain,5433.59,5438.59
+48,valve opened,5516.59,5520.59
+,Cont reach,5518.59,5532.59
+49,valve opened,5631.59,5635.59
+,Cont reach,5633.59,5651.59
+50,valve opened,5747.59,5751.59
+,Cont reach,5749.59,5790.59
+,Cont in vain,5813.59,5822.59
+,walk,5823.59,5830.59
+51,valve opened,5862.59,5866.59
+,Cont reach,5864.59,5905.59
+,walk,5935.59,5941.59
+52,valve opened,5978.59,5981.59
+,Cont reach,5980.59,5991.59
+,Cont in vain,5992.59,6020.59
+,walk,6036.59,6039.59
+53,valve opened,6093.59,6097.59
+,Cont reach,6094.59,6136.59
+,walk,6168.59,6190.59
+54,valve opened,6209.59,6212.59
+,Cont reach,6210.59,6252.59
+,Cont in vain,6315.59,6318.59
+,walk,6321.59,6326.59
+55,valve opened,6324.59,6328.59
+,Cont reach,6327.59,6344.59
+,walk,6345.59,6365.59
+56,valve opened,6439.59,6443.59
+,Cont reach,6442.59,6483.59
+57,valve opened,6555.59,6558.59
+,Cont reach,6557.59,6598.59
+58,valve opened,6670.59,6674.59
+,Cont reach,6673.59,6713.59
+,walk,6721.59,6728.59
+,walk,6778.59,6787.59
+59,valve opened,6786.59,6789.59
+,Cont reach,6788.59,6803.59
+,walk,6804.59,6816.59
+60,valve opened,6901.59,6905.59
+,Cont reach,6902.59,6944.59
+61,valve opened,7017.59,7020.59
+,Cont reach,7018.59,7059.59
+,walk,7060.59,7072.59
+,both in vain,7073.59,7077.59
+,walk,7078.59,7084.59
+,walk,7107.59,7112.59
+,both in vain,7113.59,7118.59
+,both in vain,7119.59,7124.59
+,both in vain,7125.59,7128.59
+,both in vain,7129.59,7131.59
+,both in vain,7132.59,7134.59
+62,valve opened,7132.59,7135.59
+,Both paw reach,7135.59,7138.59
+,both in vain,7139.59,7143.59
+,walk,7144.59,7149.59
+,both in vain,7150.59,7151.59
+,both in vain,7152.59,7154.59
+,both in vain,7155.59,7156.59
+,both in vain,7157.59,7160.59
+,both in vain,7161.59,7162.59
+,both in vain,7163.59,7167.59
+,walk,7168.59,7206.59
+63,valve opened,7249.59,7251.59
+,Cont reach,7249.59,7264.59
+64,valve opened,7363.59,7366.59
+,Cont reach,7365.59,7385.59
+65,valve opened,7478.59,7481.59
+,Cont reach,7481.59,7517.59
+66,valve opened,7594.59,7597.59
+,Cont reach,7597.59,7606.59
+67,valve opened,7709.59,7712.59
+,Cont reach,7712.59,7752.59
+68,valve opened,7825.59,7828.59
+,Cont reach,7827.59,7868.59
+69,valve opened,7940.59,7943.59
+,Cont reach,7942.59,7981.59
+70,valve opened,8056.59,8059.59
+,Cont reach,8058.59,8069.59
+71,valve opened,8171.59,8174.59
+,Cont reach,8173.59,8186.59
+72,valve opened,8287.59,8290.59
+,Cont reach,8289.59,8329.59
+73,valve opened,8402.59,8405.59
+,Cont reach,8404.59,8445.59
+74,valve opened,8517.59,8521.59
+,Cont reach,8521.59,8531.59
+,two photon imaging,,8487.59

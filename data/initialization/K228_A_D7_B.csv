@@ -1,0 +1,185 @@
+Trial,Behavior,Start,End
+,walk,15.59,34.59
+,walk,77.59,83.59
+1.0,valve opened,91.59,95.59
+,cont reach,95.59,97.59
+,cont in vain,98.59,101.59
+,cont in vain,102.59,104.59
+,cont in vain,105.59,109.59
+,walk,110.59,119.59
+,cont in vain,120.59,121.59
+,walk,122.59,132.59
+2.0,valve opened,210.59,214.59
+,cont reach,213.59,254.59
+3.0,valve opened,329.59,333.59
+,cont reach,330.59,371.59
+4.0,valve opened,447.59,452.59
+,cont reach,451.59,488.59
+5.0,valve opened,566.59,570.59
+,cont reach,569.59,584.59
+6.0,valve opened,685.59,689.59
+,cont reach,689.59,703.59
+,walk,748.59,759.59
+7.0,valve opened,803.59,808.59
+,cont reach,803.59,823.59
+8.0,valve opened,922.59,927.59
+,cont reach,924.59,941.59
+,walk,1026.59,1031.59
+9.0,valve opened,1041.59,1045.59
+,cont reach,1045.59,1061.59
+10.0,valve opened,1160.59,1164.59
+,cont reach,1164.59,1180.59
+11.0,valve opened,1278.59,1283.59
+, cont reach,1283.59,1301.59
+,walk,1341.59,1349.59
+,walk,1394.59,1400.59
+12.0,valve opened,1397.59,1402.59
+,cont reach,1401.59,1415.59
+13.0,valve opened,1516.59,1521.59
+,cont reach,1520.59,1536.59
+14.0,valve opened,1635.59,1640.59
+,cont reach,1640.59,1655.59
+15.0,valve opened,1754.59,1759.59
+,cont reach,1757.59,1773.59
+,walk,1774.59,1781.59
+,walk,1817.59,1832.59
+,walk,1840.59,1846.59
+,both in vain,1847.59,1854.59
+,both in vain,1855.59,1856.59
+,both in vain,1857.59,1860.59
+,both in vain,1861.59,1867.59
+,both in vain,1868.59,1869.59
+,both in vain,1870.59,1875.59
+,both in vain,1876.59,1878.59
+16.0,valve opened,1874.59,1879.59
+,cont reach,1880.59,1897.59
+,walk,1932.59,1936.59
+,both in vain,1937.59,1941.59
+,both in vain,1942.59,1945.59
+,both in vain,1946.59,1947.59
+,both in vain,1948.59,1949.59
+,both in vain,1950.59,1954.59
+,both in vain,1955.59,1960.59
+17.0,valve opened,1995.59,1999.59
+,cont reach,1999.59,2017.59
+,walk,2018.59,2022.59
+18.0,valve opened,2114.59,2118.59
+,cont reach,2117.59,2149.59
+19.0,valve opened,2232.59,2237.59
+,cont reach,2237.59,2278.59
+20.0,valve opened,2351.59,2356.59
+,cont reach,2356.59,2383.59
+21.0,valve opened,2470.59,2475.59
+,cont reach,2474.59,2508.59
+,cont in vain,2509.59,2514.59
+,walk,2515.59,2522.59
+22.0,valve opened,2589.59,2594.59
+,cont reach,2593.59,2618.59
+,cont in vain,2625.59,2633.59
+23.0,valve opened,2708.59,2712.59
+,cont reach,2711.59,2728.59
+,walk,2729.59,2744.59
+24.0,valve opened,2826.59,2831.59
+,cont reach,2831.59,2859.59
+,walk,2935.59,2951.59
+25.0,valve opened,2945.59,2950.59
+,cont reach,2952.59,2991.59
+26.0,valve opened,3067.59,3071.59
+,cont reach,3071.59,3107.59
+27.0,valve opened,3186.59,3190.59
+,cont reach,3190.59,3212.59
+,walk,3213.59,3224.59
+28.0,valve opened,3305.59,3309.59
+,cont reach,3309.59,3348.59
+,walk,3405.59,3414.59
+29.0,valve opened,3424.59,3428.59
+,cont reach,3428.59,3467.59
+30.0,valve opened,3542.59,3547.59
+,cont reach,3547.59,3579.59
+31.0,valve opened,3661.59,3666.59
+,cont reach,3666.59,3697.59
+,walk,3698.59,3704.59
+32.0,valve opened,3780.59,3785.59
+,cont reach,3785.59,3823.59
+33.0,valve opened,3900.59,3904.59
+,cont reach,3904.59,3929.59
+,walk,3930.59,3946.59
+34.0,valve opened,4018.59,4323.59
+,cont reach,4020.59,4032.59
+,walk,4115.59,4137.59
+35.0,valve opened,4137.59,4142.59
+,noise generation,4178.59,4213.89
+36.0,valve opened,4291.59,4296.59
+,noise generation,4332.59,4367.89
+37.0,valve opened,4445.59,4450.59
+,noise generation,4486.59,4521.89
+,walk,4522.59,4536.59
+,walk,4540.59,4545.59
+38.0,valve opened,4599.59,4604.59
+,walk,4607.59,4615.59
+,noise generation,4640.59,4675.89
+39.0,valve opened,4753.59,4758.59
+,noise generation,4794.59,4829.89
+,walk,4863.59,4871.59
+40.0,valve opened,4907.59,4912.59
+,noise generation,4948.59,4983.89
+41.0,valve opened,5061.59,5066.59
+,noise generation,5102.59,5137.89
+42.0,valve opened,5215.59,5220.59
+,walk,5243.59,5254.59
+,noise generation,5256.59,5291.89
+,walk,5358.59,5367.59
+43.0,valve opened,5369.59,5374.59
+,noise generation,5410.59,5445.89
+44.0,valve opened,5523.59,5528.59
+,noise generation,5564.59,5599.89
+45.0,valve opened,5677.59,5682.59
+,noise generation,5718.59,5753.89
+46.0,valve opened,5831.59,5836.59
+,noise generation,5872.59,5907.89
+47.0,valve opened,5985.59,5990.59
+,walk,6009.59,6020.59
+,noise generation,6026.59,6061.89
+48.0,valve opened,6139.59,6144.59
+,noise generation,6180.59,6215.89
+,walk,6191.59,6215.59
+,walk,6278.59,6285.59
+49.0,valve opened,6293.59,6298.59
+,noise generation,6334.59,6369.89
+,walk,6435.59,6473.59
+50.0,valve opened,6447.59,6452.59
+,noise generation,6488.59,6523.89
+51.0,valve opened,6601.59,6606.59
+,noise generation,6642.59,6677.89
+52.0,valve opened,6755.59,6760.59
+,noise generation,6797.59,6832.89
+53.0,valve opened,6909.59,6914.59
+,noise generation,6950.59,6985.89
+54.0,valve opened,7063.59,7068.59
+,cont reach,7081.59,7099.59
+55.0,valve opened,7196.59,7201.59
+,noise generation,7237.59,7272.89
+,walk,7261.59,7276.59
+56.0,valve opened,7350.59,7355.59
+,cont reach,7356.59,7372.59
+,walk,7373.59,7374.59
+57.0,valve opened,7472.59,7477.59
+,noise generation,7513.59,7548.89
+58.0,valve opened,7626.59,7631.59
+,walk,7655.59,7673.59
+,noise generation,7667.59,7702.89
+,walk,7744.59,7779.59
+59.0,valve opened,7780.59,7785.59
+,walk,7784.59,7790.59
+,noise generation,7821.59,7856.89
+60.0,valve opened,7934.59,7939.59
+,noise generation,7975.59,8010.89
+,walk,8058.59,8063.59
+,walk,8071.59,8079.59
+61.0,valve opened,8088.59,8093.59
+,noise generation,8129.59,8164.89
+62.0,valve opened,8242.59,8247.59
+,noise generation,8283.59,8318.89
+63.0,valve opened,8396.59,8401.59
+,noise generation,8437.59,8472.89
+,Last 2p frame,,8485.59

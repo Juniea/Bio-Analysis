@@ -1,0 +1,211 @@
+﻿Trial,Behavior,Start,End
+1,valve opened,90.59,95.59
+,cont reach,95.59,128.59
+,walk,169.59,178.59
+2,valve opened,210.59,215.59
+,walk,211.59,213.59
+,cont reach,214.59,254.59
+,ipsi moved,231.59,254.59
+,walk,279.59,289.59
+,cont in vain,320.59,321.59
+,cont in vain,322.59,323.59
+,walk,324.59,332.59
+3,valve opened,329.59,334.59
+,cont reach,333.59,362.59
+,walk,434.59,443.59
+4,valve opened,448.59,453.59
+,cont reach,452.59,483.59
+,walk,514.59,521.59
+,walk,533.59,551.59
+5,valve opened,566.59,571.59
+,cont reach,571.59,591.59
+,walk,652.59,660.59
+6,valve opened,686.59,691.59
+,cont reach,689.59,717.59
+,walk,761.59,765.59
+,cont licking,766.59,767.59
+,walk,768.59,778.59
+7,valve opened,804.59,809.59
+,cont reach,808.59,832.59
+,ipsi moved,811.59,821.59
+8,valve opened,923.59,928.59
+,cont reach,926.59,962.59
+,ipsi moved,925.59,936.59
+,walk,963.59,985.59
+9,valve opened,1042.59,1047.59
+,cont reach,1045.59,1070.59
+,ipsi moved,1048.59,1070.59
+,walk,1090.59,1096.59
+,walk,1136.59,1163.59
+10,valve opened,1160.59,1165.59
+,cont reach,1164.59,1174.59
+11,valve opened,1279.59,1284.59
+,cont reach,1283.59,1303.59
+,walk,1371.59,1377.59
+,walk,1383.59,1396.59
+12,valve opened,1399.59,1404.59
+,cont reach,1404.59,1425.59
+,walk,1452.59,1457.59
+,both licking,1458.59,1483.59
+,both in vain,1484.59,1485.59
+,both in vain,1486.59,1487.59
+,both in vain,1488.59,1490.59
+,both in vain,1491.59,1492.59
+,both in vain,1493.59,1495.59
+,both in vain,1496.59,1497.59
+,both in vain,1498.59,1503.59
+,both in vain,1504.59,1507.59
+,walk,1508.59,1516.59
+13,valve opened,1520.59,1525.59
+,cont reach,1527.59,1530.59
+,walk,1531.59,1543.59
+14,valve opened,1643.59,1648.59
+,cont reach,1647.59,1670.59
+,walk,1671.59,1686.59
+15,valve opened,1763.59,1768.59
+,cont reach,1767.59,1793.59
+,ipsi moved,1767.59,1793.59
+16,valve opened,1883.59,1888.59
+,cont reach,1886.59,1906.59
+,ipsi moved,1885.59,1907.59
+,walk,1925.59,1937.59
+17,valve opened,2001.59,2006.59
+,cont reach,2004.59,2024.59
+,walk,2118.59,2123.59
+18,valve opened,2120.59,2125.59
+,cont reach,2124.59,2150.59
+,ipsi moved,2125.59,2150.59
+,walk,2151.59,2160.59
+,walk,2179.59,2186.59
+,walk,2192.59,2199.59
+,walk,2233.59,2241.59
+19,valve opened,2239.59,2244.59
+,cont reach,2242.59,2261.59
+,ipsi moved,2244.59,2264.59
+,walk,2318.59,2330.59
+,walk,2352.59,2373.59
+20,valve opened,2357.59,2362.59
+,noise generation,2398.59,2433.89
+21,valve opened,2511.59,2516.59
+,cont reach,2516.59,2533.59
+,ipsi moved,2519.59,2533.59
+,walk,2534.59,2540.59
+22,valve opened,2631.59,2636.59
+,cont reach,2635.59,2647.59
+,ipsi moved,2638.59,2649.59
+,cont in vain,2648.59,2660.59
+,walk,2661.59,2673.59
+23,valve opened,2750.59,2755.59
+,noise generation,2791.59,2826.89
+24,valve opened,2904.59,2909.59
+,walk,2931.59,2939.59
+,noise generation,2945.59,2980.89
+25,valve opened,3058.59,3063.59
+,walk,3073.59,3077.59
+,cont reach,3078.59,3081.59
+,walk,3082.59,3099.59
+,walk,3129.59,3157.59
+26,valve opened,3192.59,3197.59
+,walk,3207.59,3219.59
+27,valve opened,3346.59,3351.59
+,noise generation,3387.59,3422.89
+,walk,3438.59,3460.59
+28,valve opened,3500.59,3505.59
+,noise generation,3541.59,3576.89
+,walk,3588.59,3609.59
+29,valve opened,3654.59,3659.59
+,noise generation,3695.59,3730.89
+,walk,3800.59,3812.59
+30,valve opened,3808.59,3813.59
+,cont reach,3813.59,3816.59
+,walk,3817.59,3846.59
+,walk,3852.59,3857.59
+31,valve opened,3928.59,3933.59
+,noise generation,3969.59,4004.89
+32,valve opened,4082.59,4087.59
+,noise generation,4123.59,4158.89
+33,valve opened,4236.59,4241.59
+,walk,4269.59,4278.59
+,noise generation,4277.59,4312.89
+,walk,4299.59,4309.59
+,both licking,4310.59,4316.59
+,both in vain,4317.59,4320.59
+,walk,4321.59,4342.59
+34,valve opened,4390.59,4395.59
+,noise generation,4431.59,4466.89
+35,valve opened,4544.59,4549.59
+,noise generation,4585.59,4620.89
+36,valve opened,4698.59,4703.59
+,noise generation,4739.59,4774.89
+37,valve opened,4852.59,4857.59
+,noise generation,4893.59,4928.89
+38,valve opened,5006.59,5011.59
+,noise generation,5047.59,5082.89
+,walk,5062.59,5091.59
+39,valve opened,5160.59,5165.59
+,noise generation,5201.59,5236.89
+40,valve opened,5314.59,5319.59
+,noise generation,5355.59,5390.89
+41,valve opened,5468.59,5473.59
+,walk,5474.59,5480.59
+,noise generation,5509.59,5544.89
+,walk,5551.59,5558.59
+,walk,5595.59,5617.59
+42,valve opened,5622.59,5627.59
+,noise generation,5663.59,5698.89
+43,valve opened,5776.59,5781.59
+,noise generation,5817.59,5852.89
+44,valve opened,5930.59,5935.59
+,noise generation,5971.59,6006.89
+,walk,6021.59,6028.59
+,walk,6034.59,6067.59
+45,valve opened,6084.59,6089.59
+,noise generation,6125.59,6160.89
+46,valve opened,6238.59,6243.59
+,noise generation,6279.59,6314.89
+47,valve opened,6392.59,6397.59
+,walk,6402.59,6417.59
+,noise generation,6433.59,6468.89
+,walk,6473.59,6481.59
+,walk,6536.59,6546.59
+48,valve opened,6546.59,6551.59
+,noise generation,6587.59,6622.89
+49,valve opened,6700.59,6705.59
+,walk,6695.59,6707.59
+,noise generation,6741.59,6776.89
+,walk,6833.59,6885.59
+50,valve opened,6854.59,6859.59
+,noise generation,6895.59,6930.89
+,walk,6960.59,6976.59
+51,valve opened,7008.59,7013.59
+,noise generation,7049.59,7084.89
+52,valve opened,7162.59,7167.59
+,noise generation,7203.59,7238.89
+,walk,7247.59,7256.59
+,walk,7260.59,7266.59
+,walk,7288.59,7303.59
+53,valve opened,7316.59,7321.59
+,noise generation,7357.59,7392.89
+,walk,7453.59,7458.59
+54,valve opened,7471.59,7476.59
+,noise generation,7511.59,7546.89
+,walk,7531.59,7583.59
+55,valve opened,7624.59,7629.59
+,noise generation,7666.59,7701.89
+,walk,7697.59,7702.59
+,walk,7725.59,7731.59
+,walk,7760.59,7766.59
+56,valve opened,7779.59,7784.59
+,noise generation,7820.59,7855.89
+57,valve opened,7932.59,7937.59
+,walk,7971.59,7977.59
+,noise generation,7974.59,8009.89
+,walk,8054.59,8124.59
+58,valve opened,8086.59,8091.59
+,noise generation,8128.59,8163.89
+,walk,8221.59,8466.59
+59,valve opened,8240.59,8245.59
+,noise generation,8282.59,8317.89
+60,valve opened,8394.59,8400.59
+,noise generation,8436.59,8471.89
+,two photon imaging,,8483.59

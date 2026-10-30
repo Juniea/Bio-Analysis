@@ -1,0 +1,257 @@
+﻿Trial,Behavior,Start,End
+1,valve opened,89.59,92.59
+,Cont reach,95.59,110.59
+2,valve opened,208.59,212.59
+,Cont reach,212.59,227.59
+,both licking,308.59,313.59
+,walk,313.59,324.59
+3,valve opened,327.59,330.59
+,cont missed,330.59,331.59
+,Noise generation,366.59,10.59
+4,valve opened,477.59,480.59
+,Cont reach,483.59,496.59
+,both licking,588.59,595.59
+,both reach,596.59,602.59
+5,valve opened,597.59,600.59
+,both licking,603.59,604.59
+,both licking,605.59,606.59
+,both licking,607.59,611.59
+,both licking,612.59,614.59
+,both in vain,615.59,617.59
+,both licking,618.59,623.59
+,both licking,624.59,627.59
+,both licking,628.59,631.59
+,both licking,632.59,638.59
+,both licking,639.59,643.59
+,both licking,644.59,646.59
+,both in vain,647.59,651.59
+,both in vain,652.59,655.59
+,both licking,656.59,687.59
+,both in vain,688.59,692.59
+6,valve opened,712.59,715.59
+,Noise generation,750.59,785.89
+7,valve opened,862.59,865.59
+,Cont reach,865.59,876.59
+,walk,951.59,971.59
+8,valve opened,979.59,982.59
+,Cont reach,982.59,995.59
+9,valve opened,1095.59,1098.59
+,Cont reach,1098.59,1110.59
+,Cont in vain,1111.59,1116.59
+10,valve opened,1212.59,1215.59
+,Cont reach,1214.59,1231.59
+,walk,1232.59,1242.59
+11,valve opened,1328.59,1332.59
+,Cont reach,1331.59,1345.59
+12,valve opened,1445.59,1448.59
+,Cont reach,1448.59,1464.59
+13,valve opened,1562.59,1565.59
+,Cont reach,1564.59,1576.59
+,walk,1577.59,1587.59
+14,valve opened,1677.59,1680.59
+,Cont reach,1680.59,1694.59
+15,valve opened,1794.59,1797.59
+,cont missed,1796.59,1798.59
+,Cont reach,1799.59,1810.59
+16,valve opened,1911.59,1914.59
+,Cont reach,1914.59,1928.59
+17,valve opened,2028.59,2031.59
+,walk,2025.59,2039.59
+,Noise generation,2067.59,2102.89
+18,valve opened,2178.59,2181.59
+,Noise generation,2217.59,2252.89
+19,valve opened,2328.59,2331.59
+,Noise generation,2367.59,2402.89
+20,valve opened,2478.59,2481.59
+,Noise generation,2517.59,2552.89
+21,valve opened,2628.59,2631.59
+,Noise generation,2667.59,2702.89
+22,valve opened,2778.59,2781.59
+,Noise generation,2817.59,2852.89
+,walk,2849.59,2853.59
+23,valve opened,2928.59,2931.59
+,Noise generation,2967.59,3002.89
+24,valve opened,3078.59,3081.59
+,Noise generation,3117.59,3152.89
+25,valve opened,3228.59,3231.59
+,Noise generation,3267.59,3302.89
+26,valve opened,3378.59,3381.59
+,Noise generation,3417.59,3452.89
+27,valve opened,3528.59,3532.59
+,Noise generation,3567.59,3602.89
+28,valve opened,3678.59,3681.59
+,Noise generation,3717.59,3752.89
+29,valve opened,3828.59,3832.59
+,Cont reach,3833.59,3841.59
+,both in vain,3842.59,3846.59
+,both in vain,3847.59,3849.59
+,both in vain,3850.59,3856.59
+,both in vain,3857.59,3862.59
+,both licking,3863.59,3866.59
+,walk,3867.59,3874.59
+,walk,3899.59,3932.59
+30,valve opened,3943.59,3946.59
+,Noise generation,3982.59,4017.89
+31,valve opened,4093.59,4096.59
+,Noise generation,4132.59,4167.89
+32,valve opened,4243.59,4246.59
+,Noise generation,4282.59,4317.89
+33,valve opened,4393.59,4397.59
+,Noise generation,4432.59,4467.89
+34,valve opened,4543.59,4546.59
+,Noise generation,4582.59,4617.89
+35,valve opened,4693.59,4697.59
+,Cont reach,4698.59,4703.59
+,both in vain,4704.59,4708.59
+,both in vain,4709.59,4710.59
+,walk,4711.59,4714.59
+,both in vain,4715.59,4718.59
+,both in vain,4721.59,4725.59
+,walk,4726.59,4754.59
+36,valve opened,4812.59,4815.59
+,Noise generation,4850.59,4885.89
+37,valve opened,4962.59,4965.59
+,Cont reach,4969.59,4973.59
+,Cont in vain,4974.59,4978.59
+,both in vain,4979.59,4983.59
+,both in vain,4986.59,4992.59
+,both in vain,4993.59,4998.59
+,both in vain,4999.59,5002.59
+,both in vain,5003.59,5006.59
+,both in vain,5007.59,5011.59
+,walk,5012.59,5023.59
+38,valve opened,5076.59,5080.59
+,Noise generation,5115.59,5150.89
+,walk,5225.59,5227.59
+39,valve opened,5226.59,5230.59
+,both reach,5228.59,5237.59
+,both in vain,5238.59,5241.59
+,both in vain,5242.59,5245.59
+,both in vain,5246.59,5250.59
+,both in vain,5251.59,5258.59
+,both in vain,5259.59,5261.59
+,both in vain,5262.59,5264.59
+,both in vain,5265.59,5267.59
+,both in vain,5268.59,5276.59
+,both in vain,5277.59,5279.59
+,both in vain,5280.59,5284.59
+,both licking,5285.59,5288.59
+,both in vain,5289.59,5290.59
+,both in vain,5291.59,5293.59
+,both in vain,5294.59,5297.59
+,both licking,5302.59,5313.59
+,both in vain,5314.59,5316.59
+,both in vain,5317.59,5324.59
+,both in vain,5325.59,5341.59
+40,valve opened,5342.59,5345.59
+,both missed,5342.59,5344.59
+,both reach,5345.59,5348.59
+,both in vain,5349.59,5352.59
+,both licking,5353.59,5360.59
+,both in vain,5361.59,5367.59
+,both licking,5368.59,5388.59
+,both in vain,5389.59,5391.59
+,both in vain,5392.59,5394.59
+,both in vain,5395.59,5397.59
+,both in vain,5398.59,5400.59
+,both in vain,5401.59,5404.59
+,both in vain,5414.59,5423.59
+,both in vain,5429.59,5436.59
+41,valve opened,5457.59,5461.59
+,Cont reach,5461.59,5464.59
+,both licking,5465.59,5486.59
+,both in vain,5487.59,5494.59
+,both in vain,5501.59,5505.59
+,both in vain,5506.59,5510.59
+,both in vain,5511.59,5514.59
+,both in vain,5531.59,5535.59
+,both in vain,5536.59,5540.59
+,both in vain,5541.59,5543.59
+,both in vain,5544.59,5549.59
+42,valve opened,5574.59,5578.59
+,Noise generation,5613.59,5648.89
+43,valve opened,5724.59,5728.59
+,Noise generation,5763.59,5798.89
+44,valve opened,5874.59,5878.59
+,Cont reach,5882.59,5892.59
+,both in vain,5893.59,5897.59
+45,valve opened,5996.59,6000.59
+,spout moved after wrong detection,6034.59,6038.59
+46,valve opened,6110.59,6114.59
+,spout moved after wrong detection,6149.59,6153.59
+47,valve opened,6225.59,6228.59
+,spout moved after wrong detection,6264.59,6267.59
+48,valve opened,6340.59,6343.59
+,spout moved after wrong detection,6379.59,6382.59
+49,valve opened,6454.59,6458.59
+,spout moved after wrong detection,6493.59,6496.59
+50,valve opened,6569.59,6572.59
+,spout moved after wrong detection,6608.59,6612.59
+51,valve opened,6684.59,6687.59
+,spout moved after wrong detection,6723.59,6726.59
+52,valve opened,6799.59,6802.59
+,spout moved after wrong detection,6837.59,6840.59
+53,valve opened,6913.59,6917.59
+,spout moved after wrong detection,6952.59,6956.59
+54,valve opened,7028.59,7032.59
+,spout moved after wrong detection,7067.59,7070.59
+55,valve opened,7143.59,7146.59
+,spout moved after wrong detection,7182.59,7186.59
+56,valve opened,7258.59,7261.59
+,spout moved after wrong detection,7196.59,7300.59
+57,valve opened,7372.59,7376.59
+,spout moved after wrong detection,7411.59,7415.59
+58,valve opened,7487.59,7491.59
+,spout moved after wrong detection,7526.59,7529.59
+59,valve opened,7602.59,7605.59
+,spout moved after wrong detection,7641.59,7644.59
+60,valve opened,7716.59,7720.59
+,spout moved after wrong detection,7755.59,7759.59
+61,valve opened,7831.59,7834.59
+,Cont reach,7860.59,7868.59
+,Cont in vain,7869.59,7872.59
+,both licking,7873.59,7878.59
+,both in vain,7879.59,7881.59
+,both in vain,7882.59,7889.59
+,both in vain,7890.59,7895.59
+,both in vain,7896.59,7899.59
+,both in vain,7900.59,7906.59
+,both in vain,7907.59,7910.59
+,both in vain,7911.59,7915.59
+,both in vain,7916.59,7919.59
+,both licking,7920.59,7924.59
+,both in vain,7925.59,7928.59
+,both in vain,7929.59,7933.59
+,both in vain,7934.59,7941.59
+62,valve opened,7946.59,7949.59
+,both reach,7949.59,7955.59
+,both licking,7956.59,7961.59
+,both in vain,7962.59,7967.59
+,both in vain,7968.59,7974.59
+,both licking,7975.59,7981.59
+,both in vain,7982.59,7987.59
+,both in vain,7988.59,7997.59
+,both in vain,8002.59,8004.59
+,both in vain,8005.59,8008.59
+,both in vain,8009.59,8013.59
+,both in vain,8026.59,8032.59
+,both in vain,8033.59,8037.59
+,both in vain,8038.59,8040.59
+,both in vain,8055.59,8063.59
+63,valve opened,8061.59,8064.59
+,both reach,8064.59,8066.59
+,both in vain,8067.59,8072.59
+,both in vain,8077.59,8080.59
+,both licking,8081.59,8090.59
+,both in vain,8093.59,8101.59
+,both in vain,8113.59,8119.59
+,both in vain,8123.59,8127.59
+,both in vain,8128.59,8133.59
+64,valve opened,8176.59,8180.59
+,walk,8198.59,8216.59
+,Noise generation,8215.59,8250.89
+65,valve opened,8326.59,8329.59
+,Noise generation,8365.59,8400.89
+66,valve opened,8476.59,8480.59
+,Noise generation,8515.59,8550.89
+,two photon imaging,,8484.59
